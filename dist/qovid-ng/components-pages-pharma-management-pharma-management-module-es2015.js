@@ -79,7 +79,7 @@ PharmaListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefi
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.tabs);
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".row[_ngcontent-%COMP%] {\n  margin: 10px 0;\n}\n\n.products-image[_ngcontent-%COMP%] {\n  padding: 0;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-content[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n\n.single-products-box[_ngcontent-%COMP%]   .products-content[_ngcontent-%COMP%]   .price[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  font-size: 13px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBoYXJtYS1saXN0L0M6XFxVc2Vyc1xcdG9zc29cXE9uZURyaXZlXFxEb2N1bWVudHNcXFdpdGggREkgQXdhbGkgU2Ftc291ZGluZVxccGhhcm1hQmVuaW5cXHNyY1xcYXBwXFxjb21wb25lbnRzXFxwYWdlc1xccGhhcm1hLW1hbmFnZW1lbnQvcGhhcm1hLWxpc3RcXHBoYXJtYS1saXN0LmNvbXBvbmVudC5zY3NzIiwicGhhcm1hLWxpc3QvcGhhcm1hLWxpc3QuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0FDQ0o7O0FERUE7RUFDSSxVQUFBO0FDQ0o7O0FEQ0k7RUFDSSxZQUFBO0FDQ1I7O0FEQ1E7RUFDSSxZQUFBO0FDQ1o7O0FEU1E7RUFDSSxlQUFBO0FDTlo7O0FEYUE7RUFDSSxlQUFBO0FDVkoiLCJmaWxlIjoicGhhcm1hLWxpc3QvcGhhcm1hLWxpc3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm93IHtcclxuICAgIG1hcmdpbjogMTBweCAwO1xyXG59XHJcblxyXG4ucHJvZHVjdHMtaW1hZ2Uge1xyXG4gICAgcGFkZGluZzogMDtcclxuXHJcbiAgICBhIHtcclxuICAgICAgICBoZWlnaHQ6IDEwMCU7XHJcblxyXG4gICAgICAgIGltZyB7XHJcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcclxuICAgICAgICB9XHJcbiAgICB9XHJcblxyXG59XHJcblxyXG4ucHJvZHVjdHMtY29udGVudCB7XHJcblxyXG4gICAgaDMge1xyXG5cclxuICAgICAgICBhIHtcclxuICAgICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgICAgIH1cclxuXHJcbiAgICB9XHJcblxyXG59XHJcblxyXG4uc2luZ2xlLXByb2R1Y3RzLWJveCAucHJvZHVjdHMtY29udGVudCAucHJpY2Ugc3BhbiB7XHJcbiAgICBmb250LXNpemU6IDEzcHg7XHJcbn0iLCIucm93IHtcbiAgbWFyZ2luOiAxMHB4IDA7XG59XG5cbi5wcm9kdWN0cy1pbWFnZSB7XG4gIHBhZGRpbmc6IDA7XG59XG4ucHJvZHVjdHMtaW1hZ2UgYSB7XG4gIGhlaWdodDogMTAwJTtcbn1cbi5wcm9kdWN0cy1pbWFnZSBhIGltZyB7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnByb2R1Y3RzLWNvbnRlbnQgaDMgYSB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn1cblxuLnNpbmdsZS1wcm9kdWN0cy1ib3ggLnByb2R1Y3RzLWNvbnRlbnQgLnByaWNlIHNwYW4ge1xuICBmb250LXNpemU6IDEzcHg7XG59Il19 */"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".row[_ngcontent-%COMP%] {\n  margin: 10px 0;\n}\n\n.products-image[_ngcontent-%COMP%] {\n  padding: 0;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-content[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n\n.single-products-box[_ngcontent-%COMP%]   .products-content[_ngcontent-%COMP%]   .price[_ngcontent-%COMP%]   span[_ngcontent-%COMP%] {\n  font-size: 13px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYWdlcy9waGFybWEtbWFuYWdlbWVudC9waGFybWEtbGlzdC9DOlxcVXNlcnNcXHRvc3NvXFxPbmVEcml2ZVxcRG9jdW1lbnRzXFxXaXRoIERJIEF3YWxpIFNhbXNvdWRpbmVcXHBoYXJtYUJlbmluL3NyY1xcYXBwXFxjb21wb25lbnRzXFxwYWdlc1xccGhhcm1hLW1hbmFnZW1lbnRcXHBoYXJtYS1saXN0XFxwaGFybWEtbGlzdC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9wYWdlcy9waGFybWEtbWFuYWdlbWVudC9waGFybWEtbGlzdC9waGFybWEtbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQUE7QUNDSjs7QURFQTtFQUNJLFVBQUE7QUNDSjs7QURDSTtFQUNJLFlBQUE7QUNDUjs7QURDUTtFQUNJLFlBQUE7QUNDWjs7QURTUTtFQUNJLGVBQUE7QUNOWjs7QURhQTtFQUNJLGVBQUE7QUNWSiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvcGhhcm1hLW1hbmFnZW1lbnQvcGhhcm1hLWxpc3QvcGhhcm1hLWxpc3QuY29tcG9uZW50LnNjc3MiLCJzb3VyY2VzQ29udGVudCI6WyIucm93IHtcclxuICAgIG1hcmdpbjogMTBweCAwO1xyXG59XHJcblxyXG4ucHJvZHVjdHMtaW1hZ2Uge1xyXG4gICAgcGFkZGluZzogMDtcclxuXHJcbiAgICBhIHtcclxuICAgICAgICBoZWlnaHQ6IDEwMCU7XHJcblxyXG4gICAgICAgIGltZyB7XHJcbiAgICAgICAgICAgIGhlaWdodDogMTAwJTtcclxuICAgICAgICB9XHJcbiAgICB9XHJcblxyXG59XHJcblxyXG4ucHJvZHVjdHMtY29udGVudCB7XHJcblxyXG4gICAgaDMge1xyXG5cclxuICAgICAgICBhIHtcclxuICAgICAgICAgICAgZm9udC1zaXplOiAxNHB4O1xyXG4gICAgICAgIH1cclxuXHJcbiAgICB9XHJcblxyXG59XHJcblxyXG4uc2luZ2xlLXByb2R1Y3RzLWJveCAucHJvZHVjdHMtY29udGVudCAucHJpY2Ugc3BhbiB7XHJcbiAgICBmb250LXNpemU6IDEzcHg7XHJcbn0iLCIucm93IHtcbiAgbWFyZ2luOiAxMHB4IDA7XG59XG5cbi5wcm9kdWN0cy1pbWFnZSB7XG4gIHBhZGRpbmc6IDA7XG59XG4ucHJvZHVjdHMtaW1hZ2UgYSB7XG4gIGhlaWdodDogMTAwJTtcbn1cbi5wcm9kdWN0cy1pbWFnZSBhIGltZyB7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnByb2R1Y3RzLWNvbnRlbnQgaDMgYSB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn1cblxuLnNpbmdsZS1wcm9kdWN0cy1ib3ggLnByb2R1Y3RzLWNvbnRlbnQgLnByaWNlIHNwYW4ge1xuICBmb250LXNpemU6IDEzcHg7XG59Il19 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PharmaListComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -119,7 +119,7 @@ PharmaManagementComponent.ɵfac = function PharmaManagementComponent_Factory(t) 
 PharmaManagementComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PharmaManagementComponent, selectors: [["app-pharma-management"]], decls: 2, vars: 0, template: function PharmaManagementComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](0, "app-header-one");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](1, "router-outlet");
-    } }, directives: [_layouts_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_1__["HeaderOneComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwaGFybWEtbWFuYWdlbWVudC5jb21wb25lbnQuc2NzcyJ9 */"] });
+    } }, directives: [_layouts_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_1__["HeaderOneComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]], styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvcGhhcm1hLW1hbmFnZW1lbnQvcGhhcm1hLW1hbmFnZW1lbnQuY29tcG9uZW50LnNjc3MifQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PharmaManagementComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -257,7 +257,7 @@ PharmaOneDrugsDetailsComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0_
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "p");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](1, "pharma-one-drugs-details works!");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJwaGFybWEtb25lLWRydWdzLWRldGFpbHMvcGhhcm1hLW9uZS1kcnVncy1kZXRhaWxzLmNvbXBvbmVudC5zY3NzIn0= */"] });
+    } }, styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvcGhhcm1hLW1hbmFnZW1lbnQvcGhhcm1hLW9uZS1kcnVncy1kZXRhaWxzL3BoYXJtYS1vbmUtZHJ1Z3MtZGV0YWlscy5jb21wb25lbnQuc2NzcyJ9 */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PharmaOneDrugsDetailsComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -371,7 +371,7 @@ PharmaOneDrugsListComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](26);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngForOf", ctx.tabs);
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".row[_ngcontent-%COMP%] {\n  margin: 10px 0;\n}\n\n.products-image[_ngcontent-%COMP%] {\n  padding: 0;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-content[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBoYXJtYS1vbmUtZHJ1Z3MtbGlzdC9DOlxcVXNlcnNcXHRvc3NvXFxPbmVEcml2ZVxcRG9jdW1lbnRzXFxXaXRoIERJIEF3YWxpIFNhbXNvdWRpbmVcXHBoYXJtYUJlbmluXFxzcmNcXGFwcFxcY29tcG9uZW50c1xccGFnZXNcXHBoYXJtYS1tYW5hZ2VtZW50L3BoYXJtYS1vbmUtZHJ1Z3MtbGlzdFxccGhhcm1hLW9uZS1kcnVncy1saXN0LmNvbXBvbmVudC5zY3NzIiwicGhhcm1hLW9uZS1kcnVncy1saXN0L3BoYXJtYS1vbmUtZHJ1Z3MtbGlzdC5jb21wb25lbnQuc2NzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNJLGNBQUE7QUNDSjs7QURFQTtFQUNJLFVBQUE7QUNDSjs7QURDSTtFQUNJLFlBQUE7QUNDUjs7QURDUTtFQUNJLFlBQUE7QUNDWjs7QURTUTtFQUNJLGVBQUE7QUNOWiIsImZpbGUiOiJwaGFybWEtb25lLWRydWdzLWxpc3QvcGhhcm1hLW9uZS1kcnVncy1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvdyB7XHJcbiAgICBtYXJnaW46IDEwcHggMDtcclxufVxyXG5cclxuLnByb2R1Y3RzLWltYWdlIHtcclxuICAgIHBhZGRpbmc6IDA7XHJcblxyXG4gICAgYSB7XHJcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xyXG5cclxuICAgICAgICBpbWcge1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICAgICAgfVxyXG4gICAgfVxyXG5cclxufVxyXG5cclxuLnByb2R1Y3RzLWNvbnRlbnQge1xyXG5cclxuICAgIGgzIHtcclxuXHJcbiAgICAgICAgYSB7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgICAgICB9XHJcblxyXG4gICAgfVxyXG5cclxufSIsIi5yb3cge1xuICBtYXJnaW46IDEwcHggMDtcbn1cblxuLnByb2R1Y3RzLWltYWdlIHtcbiAgcGFkZGluZzogMDtcbn1cbi5wcm9kdWN0cy1pbWFnZSBhIHtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuLnByb2R1Y3RzLWltYWdlIGEgaW1nIHtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ucHJvZHVjdHMtY29udGVudCBoMyBhIHtcbiAgZm9udC1zaXplOiAxNHB4O1xufSJdfQ== */"] });
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]], styles: [".row[_ngcontent-%COMP%] {\n  margin: 10px 0;\n}\n\n.products-image[_ngcontent-%COMP%] {\n  padding: 0;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-content[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYWdlcy9waGFybWEtbWFuYWdlbWVudC9waGFybWEtb25lLWRydWdzLWxpc3QvQzpcXFVzZXJzXFx0b3Nzb1xcT25lRHJpdmVcXERvY3VtZW50c1xcV2l0aCBESSBBd2FsaSBTYW1zb3VkaW5lXFxwaGFybWFCZW5pbi9zcmNcXGFwcFxcY29tcG9uZW50c1xccGFnZXNcXHBoYXJtYS1tYW5hZ2VtZW50XFxwaGFybWEtb25lLWRydWdzLWxpc3RcXHBoYXJtYS1vbmUtZHJ1Z3MtbGlzdC5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9wYWdlcy9waGFybWEtbWFuYWdlbWVudC9waGFybWEtb25lLWRydWdzLWxpc3QvcGhhcm1hLW9uZS1kcnVncy1saXN0LmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtBQ0NKOztBREVBO0VBQ0ksVUFBQTtBQ0NKOztBRENJO0VBQ0ksWUFBQTtBQ0NSOztBRENRO0VBQ0ksWUFBQTtBQ0NaOztBRFNRO0VBQ0ksZUFBQTtBQ05aIiwiZmlsZSI6InNyYy9hcHAvY29tcG9uZW50cy9wYWdlcy9waGFybWEtbWFuYWdlbWVudC9waGFybWEtb25lLWRydWdzLWxpc3QvcGhhcm1hLW9uZS1kcnVncy1saXN0LmNvbXBvbmVudC5zY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnJvdyB7XHJcbiAgICBtYXJnaW46IDEwcHggMDtcclxufVxyXG5cclxuLnByb2R1Y3RzLWltYWdlIHtcclxuICAgIHBhZGRpbmc6IDA7XHJcblxyXG4gICAgYSB7XHJcbiAgICAgICAgaGVpZ2h0OiAxMDAlO1xyXG5cclxuICAgICAgICBpbWcge1xyXG4gICAgICAgICAgICBoZWlnaHQ6IDEwMCU7XHJcbiAgICAgICAgfVxyXG4gICAgfVxyXG5cclxufVxyXG5cclxuLnByb2R1Y3RzLWNvbnRlbnQge1xyXG5cclxuICAgIGgzIHtcclxuXHJcbiAgICAgICAgYSB7XHJcbiAgICAgICAgICAgIGZvbnQtc2l6ZTogMTRweDtcclxuICAgICAgICB9XHJcblxyXG4gICAgfVxyXG5cclxufSIsIi5yb3cge1xuICBtYXJnaW46IDEwcHggMDtcbn1cblxuLnByb2R1Y3RzLWltYWdlIHtcbiAgcGFkZGluZzogMDtcbn1cbi5wcm9kdWN0cy1pbWFnZSBhIHtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuLnByb2R1Y3RzLWltYWdlIGEgaW1nIHtcbiAgaGVpZ2h0OiAxMDAlO1xufVxuXG4ucHJvZHVjdHMtY29udGVudCBoMyBhIHtcbiAgZm9udC1zaXplOiAxNHB4O1xufSJdfQ== */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PharmaOneDrugsListComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
@@ -407,7 +407,7 @@ class PharmaOneComponent {
     }
 }
 PharmaOneComponent.ɵfac = function PharmaOneComponent_Factory(t) { return new (t || PharmaOneComponent)(); };
-PharmaOneComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PharmaOneComponent, selectors: [["app-pharma-one"]], decls: 50, vars: 0, consts: [[1, "page-title-area", 2, "background-image", "url('http://pharmaciecampguezo.net/wp-content/uploads/2018/02/PCG1.jpg')"], [1, "container"], [1, "page-title-content"], ["routerLink", "/"], ["routerLink", "/pharma"], [1, "product-details-area", 2, "padding-top", "3em"], [1, "row", 2, "margin-bottom", "2em"], [1, "spacer"], ["routerLink", "drugs", 1, "default-btn"], [1, "flaticon-medicine"], [1, "row"], [1, "related-products"], [1, "section-title"], ["src", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.2926560621463!2d2.4160215140935897!3d6.356150626851184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102355daca116bb1%3A0xfe106c7865532bbd!2sPharmacie%20Camp%20Guezo!5e0!3m2!1sen!2sbj!4v1653128617637!5m2!1sen!2sbj", "height", "600", "allowfullscreen", "", "loading", "lazy", "referrerpolicy", "no-referrer-when-downgrade", 2, "border", "0", "width", "100%"], [1, "col-lg-3", "col-md-6", "col-sm-6"], ["routerLink", "/pharma/56qdc6", 1, "single-products-box"], [1, "products-image"], ["routerLink", "/pharma/56qdc6"], ["src", "assets/img/products/img1.jpg", "alt", "image"], [1, "products-content"], [1, "price"], [1, "flaticon-381-map-2"], [1, "new"]], template: function PharmaOneComponent_Template(rf, ctx) { if (rf & 1) {
+PharmaOneComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: PharmaOneComponent, selectors: [["app-pharma-one"]], decls: 89, vars: 0, consts: [[1, "page-title-area", 2, "background-image", "url('http://pharmaciecampguezo.net/wp-content/uploads/2018/02/PCG1.jpg')"], [1, "container"], [1, "page-title-content"], ["routerLink", "/"], ["routerLink", "/pharma"], [1, "product-details-area", 2, "padding-top", "3em"], [1, "row", 2, "margin-bottom", "2em"], [1, "spacer"], ["routerLink", "drugs", 1, "default-btn"], [1, "flaticon-medicine"], [1, "row"], [1, "related-products"], [1, "section-title"], ["src", "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.2926560621463!2d2.4160215140935897!3d6.356150626851184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x102355daca116bb1%3A0xfe106c7865532bbd!2sPharmacie%20Camp%20Guezo!5e0!3m2!1sen!2sbj!4v1653128617637!5m2!1sen!2sbj", "height", "600", "allowfullscreen", "", "loading", "lazy", "referrerpolicy", "no-referrer-when-downgrade", 2, "border", "0", "width", "100%"], [1, "related-products", 2, "margin-bottom", "3em"], [1, "col-lg-3", "col-md-6", "col-sm-6"], ["routerLink", "/pharma/56qdc6", 1, "single-products-box"], [1, "products-image"], ["routerLink", "/pharma/56qdc6"], ["src", "assets/img/products/img1.jpg", "alt", "image"], [1, "products-content"], [1, "price"], [1, "flaticon-381-map-2"], [1, "new"]], template: function PharmaOneComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -459,7 +459,7 @@ PharmaOneComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 12);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "h2");
@@ -467,33 +467,99 @@ PharmaOneComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefin
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "img", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](41, "img", 19);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "div", 20);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "h3");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 18);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](45, "Pharmacie Haie Vive");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "i", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "span", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](47, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "span", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Cadjehoun | 10min ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](52, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "img", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](58, "Pharmacie Haie Vive");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](60, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](61, "span", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](62, "Cadjehoun | 10min ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".row[_ngcontent-%COMP%] {\n  margin: 10px 0;\n}\n\n.products-image[_ngcontent-%COMP%] {\n  padding: 0;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-content[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInBoYXJtYS1vbmUvQzpcXFVzZXJzXFx0b3Nzb1xcT25lRHJpdmVcXERvY3VtZW50c1xcV2l0aCBESSBBd2FsaSBTYW1zb3VkaW5lXFxwaGFybWFCZW5pblxcc3JjXFxhcHBcXGNvbXBvbmVudHNcXHBhZ2VzXFxwaGFybWEtbWFuYWdlbWVudC9waGFybWEtb25lXFxwaGFybWEtb25lLmNvbXBvbmVudC5zY3NzIiwicGhhcm1hLW9uZS9waGFybWEtb25lLmNvbXBvbmVudC5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0ksY0FBQTtBQ0NKOztBREVBO0VBQ0ksVUFBQTtBQ0NKOztBRENJO0VBQ0ksWUFBQTtBQ0NSOztBRENRO0VBQ0ksWUFBQTtBQ0NaOztBRFNRO0VBQ0ksZUFBQTtBQ05aIiwiZmlsZSI6InBoYXJtYS1vbmUvcGhhcm1hLW9uZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cge1xyXG4gICAgbWFyZ2luOiAxMHB4IDA7XHJcbn1cclxuXHJcbi5wcm9kdWN0cy1pbWFnZSB7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG5cclxuICAgIGEge1xyXG4gICAgICAgIGhlaWdodDogMTAwJTtcclxuXHJcbiAgICAgICAgaW1nIHtcclxuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxuXHJcbn1cclxuXHJcbi5wcm9kdWN0cy1jb250ZW50IHtcclxuXHJcbiAgICBoMyB7XHJcblxyXG4gICAgICAgIGEge1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICAgICAgfVxyXG5cclxuICAgIH1cclxuXHJcbn0iLCIucm93IHtcbiAgbWFyZ2luOiAxMHB4IDA7XG59XG5cbi5wcm9kdWN0cy1pbWFnZSB7XG4gIHBhZGRpbmc6IDA7XG59XG4ucHJvZHVjdHMtaW1hZ2UgYSB7XG4gIGhlaWdodDogMTAwJTtcbn1cbi5wcm9kdWN0cy1pbWFnZSBhIGltZyB7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnByb2R1Y3RzLWNvbnRlbnQgaDMgYSB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn0iXX0= */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](63, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](64, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](65, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](66, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](67, "img", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](68, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](69, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](70, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](71, "Pharmacie Haie Vive");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](72, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](73, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](74, "span", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](75, "Cadjehoun | 10min ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](76, "div", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](77, "a", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](78, "div", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](79, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](80, "img", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](81, "div", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](82, "h3");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](83, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](84, "Pharmacie Haie Vive");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](85, "div", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](86, "i", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](87, "span", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](88, "Cadjehoun | 10min ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+    } }, directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]], styles: [".row[_ngcontent-%COMP%] {\n  margin: 10px 0;\n}\n\n.products-image[_ngcontent-%COMP%] {\n  padding: 0;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-image[_ngcontent-%COMP%]   a[_ngcontent-%COMP%]   img[_ngcontent-%COMP%] {\n  height: 100%;\n}\n\n.products-content[_ngcontent-%COMP%]   h3[_ngcontent-%COMP%]   a[_ngcontent-%COMP%] {\n  font-size: 14px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvY29tcG9uZW50cy9wYWdlcy9waGFybWEtbWFuYWdlbWVudC9waGFybWEtb25lL0M6XFxVc2Vyc1xcdG9zc29cXE9uZURyaXZlXFxEb2N1bWVudHNcXFdpdGggREkgQXdhbGkgU2Ftc291ZGluZVxccGhhcm1hQmVuaW4vc3JjXFxhcHBcXGNvbXBvbmVudHNcXHBhZ2VzXFxwaGFybWEtbWFuYWdlbWVudFxccGhhcm1hLW9uZVxccGhhcm1hLW9uZS5jb21wb25lbnQuc2NzcyIsInNyYy9hcHAvY29tcG9uZW50cy9wYWdlcy9waGFybWEtbWFuYWdlbWVudC9waGFybWEtb25lL3BoYXJtYS1vbmUuY29tcG9uZW50LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSSxjQUFBO0FDQ0o7O0FERUE7RUFDSSxVQUFBO0FDQ0o7O0FEQ0k7RUFDSSxZQUFBO0FDQ1I7O0FEQ1E7RUFDSSxZQUFBO0FDQ1o7O0FEU1E7RUFDSSxlQUFBO0FDTloiLCJmaWxlIjoic3JjL2FwcC9jb21wb25lbnRzL3BhZ2VzL3BoYXJtYS1tYW5hZ2VtZW50L3BoYXJtYS1vbmUvcGhhcm1hLW9uZS5jb21wb25lbnQuc2NzcyIsInNvdXJjZXNDb250ZW50IjpbIi5yb3cge1xyXG4gICAgbWFyZ2luOiAxMHB4IDA7XHJcbn1cclxuXHJcbi5wcm9kdWN0cy1pbWFnZSB7XHJcbiAgICBwYWRkaW5nOiAwO1xyXG5cclxuICAgIGEge1xyXG4gICAgICAgIGhlaWdodDogMTAwJTtcclxuXHJcbiAgICAgICAgaW1nIHtcclxuICAgICAgICAgICAgaGVpZ2h0OiAxMDAlO1xyXG4gICAgICAgIH1cclxuICAgIH1cclxuXHJcbn1cclxuXHJcbi5wcm9kdWN0cy1jb250ZW50IHtcclxuXHJcbiAgICBoMyB7XHJcblxyXG4gICAgICAgIGEge1xyXG4gICAgICAgICAgICBmb250LXNpemU6IDE0cHg7XHJcbiAgICAgICAgfVxyXG5cclxuICAgIH1cclxuXHJcbn0iLCIucm93IHtcbiAgbWFyZ2luOiAxMHB4IDA7XG59XG5cbi5wcm9kdWN0cy1pbWFnZSB7XG4gIHBhZGRpbmc6IDA7XG59XG4ucHJvZHVjdHMtaW1hZ2UgYSB7XG4gIGhlaWdodDogMTAwJTtcbn1cbi5wcm9kdWN0cy1pbWFnZSBhIGltZyB7XG4gIGhlaWdodDogMTAwJTtcbn1cblxuLnByb2R1Y3RzLWNvbnRlbnQgaDMgYSB7XG4gIGZvbnQtc2l6ZTogMTRweDtcbn0iXX0= */"] });
 /*@__PURE__*/ (function () { _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵsetClassMetadata"](PharmaOneComponent, [{
         type: _angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"],
         args: [{
