@@ -19070,7 +19070,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
   /***/
   function _(module, exports, __webpack_require__) {
     __webpack_require__(
-    /*! C:\Users\tosso\OneDrive\Documents\With DI Awali Samsoudine\qovid-ng\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
+    /*! C:\Users\tosso\OneDrive\Documents\With DI Awali Samsoudine\pharmaBenin\node_modules\@angular-devkit\build-angular\src\angular-cli-files\models\es5-polyfills.js */
     "./node_modules/@angular-devkit/build-angular/src/angular-cli-files/models/es5-polyfills.js");
 
     __webpack_require__(
@@ -19078,7 +19078,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
     "./node_modules/zone.js/dist/zone-legacy.js");
 
     module.exports = __webpack_require__(
-    /*! C:\Users\tosso\OneDrive\Documents\With DI Awali Samsoudine\qovid-ng\src\polyfills.ts */
+    /*! C:\Users\tosso\OneDrive\Documents\With DI Awali Samsoudine\pharmaBenin\src\polyfills.ts */
     "./src/polyfills.ts");
     /***/
   }

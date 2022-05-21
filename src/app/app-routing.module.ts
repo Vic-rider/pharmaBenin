@@ -52,10 +52,25 @@ const routes: Routes = [
     {path: 'live-tracker', component: LiveTrackerComponent},
     {path: 'coming-soon', component: ComingSoonComponent},
     {path: 'contact', component: ContactComponent},
+
+    {
+        path: 'pharma',
+        loadChildren: () => import('./components/pages/pharma-management/pharma-management.module').then(
+            m => m.PharmaManagementModule
+        )
+    },
+    {
+        path: 'consultation',
+        loadChildren: () => import('./components/pages/consultation-management/consultation-management.module').then(
+            m => m.ConsultationManagementModule
+        )
+    }
+
 ];
 
 @NgModule({
     imports: [RouterModule.forRoot(routes)],
     exports: [RouterModule]
 })
+
 export class AppRoutingModule { }

@@ -1,0 +1,39 @@
+<section class="page-title-area">
+    <div class="container">
+        <div class="page-title-content">
+            <h2>Parmacies</h2>
+            <ul>
+                <li><a routerLink="/">Home</a></li>
+                <li>Parmacies de Garde</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="products-area ptb-100">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" *ngFor="let item of tabs " >
+                <a routerLink="/pharma/56qdc6" class="single-products-box row">
+
+                    <div class="products-image col-4">
+                        <a routerLink="/pharma/56qdc6">
+                            <img src="assets/img/products/img1.jpg" alt="image">
+                        </a>
+                    </div>
+
+                    <div class="products-content col-8">
+                        <h3><a routerLink="/pharma/56qdc6">Pharmacie Camp Guezo</a></h3>
+                        <div class="price">
+                            <i class="flaticon-381-map-2"></i>
+                            <span class="new">Cadjehoun | 10min </span>
+                        </div>
+                    </div>
+
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>

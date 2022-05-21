@@ -4,17 +4,10 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { PreloaderComponent } from './components/layouts/preloader/preloader.component';
-import { FooterComponent } from './components/layouts/footer/footer.component';
-import { HomeOneComponent } from './components/pages/home-one/home-one.component';
-import { HeaderOneComponent } from './components/layouts/header-one/header-one.component';
 import { HomeTwoComponent } from './components/pages/home-two/home-two.component';
 import { HomeThreeComponent } from './components/pages/home-three/home-three.component';
 import { HomeFourComponent } from './components/pages/home-four/home-four.component';
 import { HomeFiveComponent } from './components/pages/home-five/home-five.component';
-import { HeaderTwoComponent } from './components/layouts/header-two/header-two.component';
-import { HeaderThreeComponent } from './components/layouts/header-three/header-three.component';
-import { HeaderFourComponent } from './components/layouts/header-four/header-four.component';
 import { OnepageNavbarComponent } from './components/layouts/onepage-navbar/onepage-navbar.component';
 import { HomeSixComponent } from './components/pages/home-six/home-six.component';
 import { AboutOneComponent } from './components/pages/about-one/about-one.component';
@@ -37,22 +30,17 @@ import { ErrorComponent } from './components/pages/error/error.component';
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
 import { LiveTrackerComponent } from './components/pages/live-tracker/live-tracker.component';
 import { LiveDataComponent } from './components/layouts/live-data/live-data.component';
+import { LayoutsModule } from './components/layouts/layouts.module';
+import { HomeOneComponent } from './components/pages/home-one/home-one.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PreloaderComponent,
-    FooterComponent,
     HomeOneComponent,
-    HeaderOneComponent,
     HomeTwoComponent,
     HomeThreeComponent,
     HomeFourComponent,
     HomeFiveComponent,
-    HeaderTwoComponent,
-    HeaderThreeComponent,
-    HeaderFourComponent,
-    OnepageNavbarComponent,
     HomeSixComponent,
     AboutOneComponent,
     AboutTwoComponent,
@@ -78,7 +66,8 @@ import { LiveDataComponent } from './components/layouts/live-data/live-data.comp
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    LayoutsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

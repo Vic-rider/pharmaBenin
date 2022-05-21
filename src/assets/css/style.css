@@ -57,7 +57,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #130947;
+  color: #007d34;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -93,7 +93,7 @@ p:last-child {
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   font-family: "Open Sans", sans-serif;
-  color: #130947;
+  color: #007d34;
 }
 
 .bg-f9f9f9 {
@@ -158,22 +158,22 @@ p:last-child {
 
 .default-btn:hover {
   color: #ffffff;
-  border-color: #130947;
-  background-color: #130947;
+  border-color: #007d34;
+  background-color: #007d34;
 }
 
 .optional-btn {
   position: relative;
   z-index: 1;
   text-transform: capitalize;
-  background-color: #130947;
+  background-color: #007d34;
   color: #ffffff;
   display: inline-block;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   padding: 11.9px 25px 11.9px 50px;
   border-radius: 5px;
-  border: 1px solid #130947;
+  border: 1px solid #007d34;
   font-size: 14px;
   font-weight: 700;
 }
@@ -227,7 +227,7 @@ p:last-child {
           box-shadow: unset !important;
   padding: 0 0 0 15px;
   border: 1px solid #f5f5f5;
-  color: #130947;
+  color: #007d34;
   font-size: 15px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -435,7 +435,7 @@ Header Area CSS
 }
 
 .top-header-social li a:hover {
-  color: #130947;
+  color: #007d34;
   -webkit-transform: translateY(-2px);
           transform: translateY(-2px);
 }
@@ -454,7 +454,7 @@ Header Area CSS
 .top-header-contact-info li {
   display: inline-block;
   margin-right: 12px;
-  color: #130947;
+  color: #007d34;
   font-size: 14px;
   position: relative;
   padding-left: 24px;
@@ -524,7 +524,7 @@ Header Area CSS
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:hover, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li a:focus, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li a.active {
@@ -532,7 +532,7 @@ Header Area CSS
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
@@ -540,7 +540,7 @@ Header Area CSS
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -548,7 +548,7 @@ Header Area CSS
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -556,7 +556,7 @@ Header Area CSS
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -564,7 +564,7 @@ Header Area CSS
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -581,7 +581,7 @@ Header Area CSS
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -636,7 +636,7 @@ Header Area CSS
   z-index: 999;
   -webkit-box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 2px 28px 0 rgba(0, 0, 0, 0.06);
-  background: #130947 !important;
+  background: #007d34 !important;
   -webkit-animation: .5s ease-in-out 0s normal none 1 running fadeInDown;
           animation: .5s ease-in-out 0s normal none 1 running fadeInDown;
 }
@@ -644,7 +644,7 @@ Header Area CSS
 .navbar-area.navbar-style-two.is-sticky .qovid-nav .navbar .others-option .option-item .default-btn {
   border-color: #ffffff;
   background-color: #ffffff;
-  color: #130947;
+  color: #007d34;
 }
 
 .navbar-area.navbar-style-two.is-sticky .qovid-nav .navbar .others-option .option-item .default-btn:hover {
@@ -752,7 +752,7 @@ Header Area CSS
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item a {
-  color: #130947;
+  color: #007d34;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -816,7 +816,7 @@ Header Area CSS
   margin: 0;
   position: relative;
   display: block;
-  color: #130947;
+  color: #007d34;
   border-bottom: 1px dashed #e5e5e5;
   text-transform: capitalize;
   font-size: 15px;
@@ -847,7 +847,7 @@ Header Area CSS
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:hover, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a:focus, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li a.active {
@@ -864,7 +864,7 @@ Header Area CSS
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -881,7 +881,7 @@ Header Area CSS
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -898,7 +898,7 @@ Header Area CSS
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -915,7 +915,7 @@ Header Area CSS
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -932,7 +932,7 @@ Header Area CSS
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a {
-  color: #130947;
+  color: #007d34;
 }
 
 .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:hover, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a:focus, .qovid-nav .navbar .navbar-nav .nav-item .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li .dropdown-menu li a.active {
@@ -1047,7 +1047,7 @@ Header Area CSS
 .qovid-nav .navbar .others-option .option-item .search-btn-box .search-btn {
   font-size: 25px;
   cursor: pointer;
-  color: #130947;
+  color: #007d34;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -1065,7 +1065,7 @@ Header Area CSS
 .qovid-nav .navbar .others-option .option-item .cart-btn a {
   display: inline-block;
   position: relative;
-  color: #130947;
+  color: #007d34;
 }
 
 .qovid-nav .navbar .others-option .option-item .cart-btn a span {
@@ -1088,8 +1088,8 @@ Header Area CSS
 }
 
 .qovid-nav .navbar .others-option .option-item .default-btn {
-  border-color: #130947;
-  background-color: #130947;
+  border-color: #007d34;
+  background-color: #007d34;
   color: #ffffff;
 }
 
@@ -1128,7 +1128,7 @@ Header Area CSS
 }
 
 .onepage-navbar.navbar-light .navbar-nav .nav-item a {
-  color: #130947;
+  color: #007d34;
   text-transform: uppercase;
   font-size: 14px;
   font-weight: 700;
@@ -1192,7 +1192,7 @@ Header Area CSS
     padding-left: 15px;
   }
   .navbar-area.navbar-style-two .qovid-nav .navbar .navbar-nav .nav-item a {
-    color: #130947;
+    color: #007d34;
   }
   .navbar-area.navbar-style-three .container-fluid {
     padding-left: 15px;
@@ -1203,7 +1203,7 @@ Header Area CSS
     padding-bottom: 0;
   }
   .qovid-nav .navbar-light .navbar-toggler {
-    border-color: #130947;
+    border-color: #007d34;
     border-radius: 0;
   }
   .qovid-nav .navbar-light .navbar-toggler-icon {
@@ -1332,7 +1332,7 @@ Header Area CSS
     border-bottom: none;
   }
   .onepage-navbar.navbar-light .navbar-toggler {
-    color: #130947;
+    color: #007d34;
     border: none;
     padding: 0;
   }
@@ -1344,7 +1344,7 @@ Header Area CSS
   .onepage-navbar.navbar-light .navbar-toggler .burger-menu span {
     height: 2px;
     width: 30px;
-    background: #130947;
+    background: #007d34;
     display: block;
     margin: 6px 0;
     -webkit-transition: all .50s ease-in-out;
@@ -1399,7 +1399,7 @@ Header Area CSS
     border-bottom: none;
   }
   .onepage-navbar.navbar-light .navbar-toggler {
-    color: #130947;
+    color: #007d34;
     border: none;
     padding: 0;
   }
@@ -1411,7 +1411,7 @@ Header Area CSS
   .onepage-navbar.navbar-light .navbar-toggler .burger-menu span {
     height: 2px;
     width: 30px;
-    background: #130947;
+    background: #007d34;
     display: block;
     margin: 6px 0;
     -webkit-transition: all .50s ease-in-out;
@@ -1568,7 +1568,7 @@ Search Overlay CSS
   border: none;
   border-radius: 30px;
   padding-left: 20px;
-  color: #130947;
+  color: #007d34;
   font-size: 15px;
 }
 
@@ -1589,7 +1589,7 @@ Search Overlay CSS
 }
 
 .search-overlay .search-overlay-form form button:hover {
-  background-color: #130947;
+  background-color: #007d34;
   color: #ffffff;
 }
 
@@ -1688,14 +1688,14 @@ Main Banner Area CSS
 }
 
 .main-banner-content .btn-box .default-btn:hover {
-  color: #130947;
+  color: #007d34;
   background-color: #ffffff;
   border-color: #ffffff;
 }
 
 .main-banner-content .btn-box .optional-btn {
   margin-left: 15px;
-  color: #130947;
+  color: #007d34;
   border-color: #ffffff;
   background-color: #ffffff;
 }
@@ -1901,14 +1901,14 @@ Main Banner Area CSS
 }
 
 .banner-wrapper-content .btn-box .default-btn:hover {
-  color: #130947;
+  color: #007d34;
   background-color: #ffffff;
   border-color: #ffffff;
 }
 
 .banner-wrapper-content .btn-box .optional-btn {
   margin-left: 15px;
-  color: #130947;
+  color: #007d34;
   border-color: #ffffff;
   background-color: #ffffff;
 }
@@ -1941,9 +1941,9 @@ Main Banner Area CSS
 }
 
 .banner-area .main-banner-content .btn-box .optional-btn:hover {
-  background-color: #130947;
+  background-color: #007d34;
   color: #ffffff;
-  border-color: #130947;
+  border-color: #007d34;
 }
 
 .banner-image {
@@ -2022,7 +2022,7 @@ Main Banner Area CSS
 }
 
 .main-banner-content.black-text .sub-title {
-  color: #130947;
+  color: #007d34;
 }
 
 .main-banner-content.black-text .sub-title::before {
@@ -2030,11 +2030,11 @@ Main Banner Area CSS
 }
 
 .main-banner-content.black-text h1 {
-  color: #130947;
+  color: #007d34;
 }
 
 .main-banner-content.black-text p {
-  color: #130947;
+  color: #007d34;
   opacity: 1;
 }
 
@@ -2060,7 +2060,7 @@ Main Banner Area CSS
   margin: 0;
   padding: 0;
   background-color: transparent !important;
-  color: #130947 !important;
+  color: #007d34 !important;
   font-size: 35px;
   opacity: 0;
   visibility: hidden;
@@ -2142,7 +2142,7 @@ About Area CSS
 
 .about-content blockquote p {
   margin-bottom: 0;
-  color: #130947;
+  color: #007d34;
   font-size: 17px;
   font-weight: 600;
   font-style: italic;
@@ -2303,7 +2303,7 @@ CTA Area CSS
 .cta-inner-area {
   border-radius: 10px;
   margin-top: 20px;
-  background-color: #130947;
+  background-color: #007d34;
   background-image: url(../../assets/img/cta-bg.jpg);
   background-position: center center;
   background-size: cover;
@@ -2412,8 +2412,8 @@ Spreads Virus Area CSS
 }
 
 .single-spread-virus-box:hover {
-  background-color: #130947;
-  border-color: #130947;
+  background-color: #007d34;
+  border-color: #007d34;
 }
 
 .single-spread-virus-box:hover h3 {
@@ -2747,7 +2747,7 @@ Symptoms Area CSS
   background-color: #ffffff;
   position: relative;
   padding: 15px 15px 15px 55px;
-  color: #130947;
+  color: #007d34;
   -webkit-transition: 0.5s;
   transition: 0.5s;
   border-radius: 0 5px 5px 0;
@@ -2760,7 +2760,7 @@ Symptoms Area CSS
   width: 3px;
   height: 100%;
   z-index: -1;
-  background-color: #130947;
+  background-color: #007d34;
   content: '';
   position: absolute;
   left: 0;
@@ -2780,7 +2780,7 @@ Symptoms Area CSS
   height: 30px;
   text-align: center;
   line-height: 30px;
-  color: #130947;
+  color: #007d34;
   font-size: 14px;
   background-color: #e5ecfe;
   border-radius: 50%;
@@ -2916,7 +2916,7 @@ Funfacts Area CSS
 .funfacts-area::before {
   width: 100%;
   height: 100%;
-  background-color: #130947;
+  background-color: #007d34;
   opacity: 0.75;
   content: '';
   position: absolute;
@@ -2943,7 +2943,7 @@ Funfacts Area CSS
 
 .single-funfacts-box {
   margin-bottom: 30px;
-  background-color: #130947;
+  background-color: #007d34;
   text-align: center;
   padding: 20px;
   border-radius: 5px;
@@ -2995,7 +2995,7 @@ Funfacts Area CSS
 }
 
 .single-funfacts-box.bg-white h3 {
-  color: #130947;
+  color: #007d34;
 }
 
 .funfacts-info {
@@ -3015,11 +3015,11 @@ Funfacts Area CSS
 }
 
 .funfacts-info.color-black p {
-  color: #130947;
+  color: #007d34;
 }
 
 .funfacts-info.color-black p a {
-  color: #130947;
+  color: #007d34;
 }
 
 .funfacts-section {
@@ -3127,7 +3127,7 @@ How To Protect Area CSS
 }
 
 .how-to-protect-content .content:hover::before {
-  background-color: #130947;
+  background-color: #007d34;
 }
 
 .how-to-protect-content .content:last-child {
@@ -3143,7 +3143,7 @@ How To Protect Area CSS
 
 .how-to-protect-image .main-image {
   border-radius: 50%;
-  border: 14px solid #130947;
+  border: 14px solid #007d34;
   position: absolute;
   left: 0;
   right: 0;
@@ -3302,7 +3302,7 @@ How To Protect Area CSS
 }
 
 .how-to-protect-content-list .content .text:hover .icon {
-  background-color: #130947;
+  background-color: #007d34;
   color: #ffffff;
 }
 
@@ -3320,7 +3320,7 @@ Prevention Area CSS
 .prevention-area {
   position: relative;
   z-index: 1;
-  background-color: #130947;
+  background-color: #007d34;
 }
 
 .prevention-area .section-title h2 {
@@ -3588,11 +3588,11 @@ FAQ Area CSS
 
 .faq-image .video-btn:hover {
   color: #ffffff;
-  background-color: #130947;
+  background-color: #007d34;
 }
 
 .faq-image .video-btn:hover::before, .faq-image .video-btn:hover::after {
-  border-color: #130947;
+  border-color: #007d34;
 }
 
 .faq-accordion .card {
@@ -3618,11 +3618,11 @@ FAQ Area CSS
 
 .faq-accordion .card .card-header a {
   padding: 12px 35px 10px 15px;
-  color: #130947;
+  color: #007d34;
   text-decoration: none;
   position: relative;
   display: block;
-  border-left: 3px solid #130947;
+  border-left: 3px solid #007d34;
   border-bottom: 1px solid #eeeeee;
   font-size: 16px;
   font-weight: 600;
@@ -3735,7 +3735,7 @@ FAQ Area CSS
 }
 
 .faq-accordion-tab .tabs li a {
-  color: #130947;
+  color: #007d34;
   text-decoration: none;
   border-radius: 5px;
   padding: 20px;
@@ -3788,11 +3788,11 @@ FAQ Area CSS
 
 .faq-accordion-content .card .card-header a {
   padding: 12px 35px 10px 15px;
-  color: #130947;
+  color: #007d34;
   text-decoration: none;
   position: relative;
   display: block;
-  border-left: 3px solid #130947;
+  border-left: 3px solid #007d34;
   border-bottom: 1px solid #eeeeee;
   font-size: 16px;
   font-weight: 600;
@@ -3887,7 +3887,7 @@ FAQ Area CSS
           transform: translateY(-50%) translateX(-50%);
   background-color: #ffffff;
   border-radius: 50%;
-  color: #130947;
+  color: #007d34;
 }
 
 .faq-img .video-btn::after, .faq-img .video-btn::before {
@@ -4010,7 +4010,7 @@ Appointment Area CSS
 Doctors Area CSS
 =================================================*/
 .doctors-area.bg-color {
-  background-color: #130947;
+  background-color: #007d34;
 }
 
 .doctors-area.bg-color .section-title .sub-title {
@@ -4262,7 +4262,7 @@ Outbreak Area CSS
   vertical-align: middle;
   border-color: #eeeeee;
   white-space: nowrap;
-  color: #130947;
+  color: #007d34;
   border-top: none;
   border-bottom: none;
   border-right: none;
@@ -4324,9 +4324,9 @@ Emergency Contact Area CSS
 }
 
 .emergency-contact-inner .btn-box .default-btn {
-  background-color: #130947;
+  background-color: #007d34;
   color: #ffffff;
-  border-color: #130947;
+  border-color: #007d34;
 }
 
 .emergency-contact-inner .btn-box .default-btn:not(:first-child) {
@@ -4344,7 +4344,7 @@ Emergency Contact Area CSS
 }
 
 .emergency-contact-inner .contact-cta a {
-  background-color: #130947;
+  background-color: #007d34;
   color: #ffffff;
   text-align: left;
   position: relative;
@@ -4622,8 +4622,8 @@ Products Details Area CSS
 
 .products-details-desc .products-review .rating-count {
   display: inline-block;
-  color: #130947;
-  border-bottom: 1px solid #130947;
+  color: #007d34;
+  border-bottom: 1px solid #007d34;
   line-height: initial;
   position: relative;
   top: -2px;
@@ -4643,7 +4643,7 @@ Products Details Area CSS
 }
 
 .products-details-desc .products-info li {
-  color: #130947;
+  color: #007d34;
   margin-bottom: 8px;
   font-size: 15px;
 }
@@ -4659,7 +4659,7 @@ Products Details Area CSS
 .products-details-desc .products-info li a {
   display: inline-block;
   font-weight: 600;
-  color: #130947;
+  color: #007d34;
 }
 
 .products-details-desc .products-info li a:hover {
@@ -4748,7 +4748,7 @@ Products Details Area CSS
 
 .products-details-desc .products-add-to-cart .input-counter input {
   height: 50px;
-  color: #130947;
+  color: #007d34;
   outline: 0;
   display: block;
   border: none;
@@ -4760,19 +4760,19 @@ Products Details Area CSS
 }
 
 .products-details-desc .products-add-to-cart .input-counter input::-webkit-input-placeholder {
-  color: #130947;
+  color: #007d34;
 }
 
 .products-details-desc .products-add-to-cart .input-counter input:-ms-input-placeholder {
-  color: #130947;
+  color: #007d34;
 }
 
 .products-details-desc .products-add-to-cart .input-counter input::-ms-input-placeholder {
-  color: #130947;
+  color: #007d34;
 }
 
 .products-details-desc .products-add-to-cart .input-counter input::placeholder {
-  color: #130947;
+  color: #007d34;
 }
 
 .products-details-desc .products-add-to-cart .default-btn {
@@ -4855,7 +4855,7 @@ Products Details Area CSS
 
 .products-details-desc .buy-checkbox-btn .cbx span:last-child {
   padding-left: 4px;
-  color: #130947;
+  color: #007d34;
   position: relative;
   top: -1px;
 }
@@ -4919,11 +4919,11 @@ Products Details Area CSS
 
 .products-details-desc .products-details-accordion .card .card-header a {
   padding: 12px 35px 10px 15px;
-  color: #130947;
+  color: #007d34;
   text-decoration: none;
   position: relative;
   display: block;
-  border-left: 3px solid #130947;
+  border-left: 3px solid #007d34;
   border-bottom: 1px solid #eeeeee;
   font-size: 16px;
   font-weight: 600;
@@ -4996,7 +4996,7 @@ Products Details Area CSS
   vertical-align: middle;
   white-space: nowrap;
   padding: 10px 15px;
-  color: #130947;
+  color: #007d34;
   font-size: 14.5px;
 }
 
@@ -5015,7 +5015,7 @@ Products Details Area CSS
 }
 
 .products-details-desc .products-details-accordion .card .table.table-bordered tbody tr td:first-child {
-  color: #130947;
+  color: #007d34;
   font-weight: 500;
 }
 
@@ -5178,7 +5178,7 @@ Cart Area CSS
 
 .cart-table table tbody tr td.product-name ul li span {
   display: inline;
-  color: #130947;
+  color: #007d34;
 }
 
 .cart-table table tbody tr td.product-name ul li:last-child {
@@ -5190,7 +5190,7 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-subtotal .subtotal-amount {
-  color: #130947;
+  color: #007d34;
   font-weight: 600;
 }
 
@@ -5239,7 +5239,7 @@ Cart Area CSS
 
 .cart-table table tbody tr td.product-quantity .input-counter input {
   height: 45px;
-  color: #130947;
+  color: #007d34;
   outline: 0;
   display: block;
   border: none;
@@ -5251,23 +5251,23 @@ Cart Area CSS
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::-webkit-input-placeholder {
-  color: #130947;
+  color: #007d34;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input:-ms-input-placeholder {
-  color: #130947;
+  color: #007d34;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::-ms-input-placeholder {
-  color: #130947;
+  color: #007d34;
 }
 
 .cart-table table tbody tr td.product-quantity .input-counter input::placeholder {
-  color: #130947;
+  color: #007d34;
 }
 
 .cart-table table tbody tr td .unit-amount {
-  color: #130947;
+  color: #007d34;
   font-weight: 600;
 }
 
@@ -5302,7 +5302,7 @@ Cart Area CSS
 .cart-totals ul li {
   border: 1px solid #eaedff;
   padding: 10px 15px;
-  color: #130947;
+  color: #007d34;
   overflow: hidden;
   font-weight: 700;
 }
@@ -5317,7 +5317,7 @@ Cart Area CSS
 }
 
 .cart-totals ul li:last-child span {
-  color: #130947;
+  color: #007d34;
 }
 
 .cart-totals ul li span {
@@ -5354,7 +5354,7 @@ Checkout Area CSS
 
 .user-actions span a {
   display: inline-block;
-  color: #130947;
+  color: #007d34;
 }
 
 .user-actions span a:hover, .user-actions span a:focus {
@@ -5399,7 +5399,7 @@ Checkout Area CSS
 .billing-details .form-group .nice-select {
   float: unset;
   line-height: 48px;
-  color: #130947;
+  color: #007d34;
   border: none;
   background-color: #f5f5f5 !important;
   font-weight: normal;
@@ -5445,7 +5445,7 @@ Checkout Area CSS
 }
 
 .billing-details .form-check .form-check-label {
-  color: #130947;
+  color: #007d34;
 }
 
 .billing-details .form-check label {
@@ -5507,13 +5507,13 @@ Checkout Area CSS
 }
 
 .order-details .order-table table tbody tr td.order-subtotal span, .order-details .order-table table tbody tr td.order-shipping span, .order-details .order-table table tbody tr td.total-price span {
-  color: #130947;
+  color: #007d34;
   font-weight: 700;
 }
 
 .order-details .order-table table tbody tr td.shipping-price, .order-details .order-table table tbody tr td.order-subtotal-price, .order-details .order-table table tbody tr td.product-subtotal {
   font-weight: 700;
-  color: #130947;
+  color: #007d34;
 }
 
 .order-details .payment-box {
@@ -5532,7 +5532,7 @@ Checkout Area CSS
   padding-left: 27px;
   cursor: pointer;
   display: block;
-  color: #130947;
+  color: #007d34;
   position: relative;
   margin-bottom: 8px;
   font-weight: 700;
@@ -5727,7 +5727,7 @@ Blog Area CSS
   right: -100%;
   top: 20px;
   background-color: #ffffff;
-  color: #130947;
+  color: #007d34;
   padding: 5px 10px 6px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -5765,7 +5765,7 @@ Blog Area CSS
   margin-top: 13px;
   display: inline-block;
   position: relative;
-  color: #130947;
+  color: #007d34;
   text-transform: uppercase;
   font-size: 13px;
   font-weight: 600;
@@ -5942,7 +5942,7 @@ Blog Details Area CSS
 
 .blog-details-desc .article-footer .article-tags span {
   display: inline-block;
-  color: #130947;
+  color: #007d34;
   margin-right: 3px;
   position: relative;
   top: 3px;
@@ -6055,7 +6055,7 @@ Blog Details Area CSS
 }
 
 .blog-details-desc blockquote p, .blog-details-desc .blockquote p {
-  color: #130947;
+  color: #007d34;
   line-height: 1.6;
   margin-bottom: 0;
   font-style: italic;
@@ -6191,7 +6191,7 @@ Blog Details Area CSS
 }
 
 .prev-link-wrapper .prev-link-info-wrapper {
-  color: #130947;
+  color: #007d34;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -6299,7 +6299,7 @@ Blog Details Area CSS
 .next-link-wrapper .next-link-info-wrapper {
   -webkit-transition: 0.5s;
   transition: 0.5s;
-  color: #130947;
+  color: #007d34;
 }
 
 .next-link-wrapper .next-title {
@@ -6347,7 +6347,7 @@ Blog Details Area CSS
 .comments-area .comment-body {
   border-bottom: 1px dashed #eeeeee;
   padding-left: 65px;
-  color: #130947;
+  color: #007d34;
   font-size: 14px;
   margin-bottom: 20px;
   padding-bottom: 20px;
@@ -6359,7 +6359,7 @@ Blog Details Area CSS
 
 .comments-area .comment-body .reply a {
   border: 1px dashed #ded9d9;
-  color: #130947;
+  color: #007d34;
   display: inline-block;
   padding: 5px 20px;
   border-radius: 30px;
@@ -6459,7 +6459,7 @@ Blog Details Area CSS
   height: 50px;
   outline: 0;
   border-radius: 3px;
-  color: #130947;
+  color: #007d34;
   font-weight: 500;
   font-size: 15px;
 }
@@ -6576,7 +6576,7 @@ Blog Details Area CSS
 
 .comments-area .comment-respond .form-submit input:hover, .comments-area .comment-respond .form-submit input:focus {
   color: #ffffff;
-  background: #130947;
+  background: #007d34;
 }
 
 /*================================================
@@ -6719,7 +6719,7 @@ Page Title Area CSS
 .page-title-area::before {
   width: 100%;
   height: 100%;
-  background-color: #130947;
+  background-color: #007d34;
   opacity: 0.75;
   content: '';
   position: absolute;
@@ -6797,7 +6797,7 @@ Pagination CSS
 }
 
 .pagination-area .page-numbers {
-  color: #130947;
+  color: #007d34;
   display: inline-block;
   line-height: 1;
   background-color: #ffffff;
@@ -6877,7 +6877,7 @@ Widget Sidebar CSS
 
 .widget-area .widget_search form .search-field {
   height: 50px;
-  color: #130947;
+  color: #007d34;
   background-color: #f2f4f5;
   display: block;
   width: 100%;
@@ -6946,7 +6946,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_search form button:hover, .widget-area .widget_search form button:focus {
-  background-color: #130947;
+  background-color: #007d34;
   color: #ffffff;
 }
 
@@ -7064,7 +7064,7 @@ Widget Sidebar CSS
   position: relative;
   margin-bottom: 12px;
   overflow: hidden;
-  color: #130947;
+  color: #007d34;
   padding-left: 17px;
   font-weight: 700;
   font-size: 15px;
@@ -7086,7 +7086,7 @@ Widget Sidebar CSS
 }
 
 .widget-area .widget_categories ul li a {
-  color: #130947;
+  color: #007d34;
   display: inline-block;
 }
 
@@ -7109,7 +7109,7 @@ Widget Sidebar CSS
 .widget-area .tagcloud a {
   display: inline-block;
   background-color: #f6f6f6;
-  color: #130947;
+  color: #007d34;
   padding: 7px 15px;
   border: none;
   border-radius: 3px;
@@ -7326,7 +7326,7 @@ Coming Soon Area CSS
   pointer-events: none;
   width: 100%;
   height: 100%;
-  color: #130947;
+  color: #007d34;
 }
 
 .coming-soon-content form .form-group .label-title i {
@@ -7356,7 +7356,7 @@ Coming Soon Area CSS
   border: none;
   border-bottom: 2px solid #eeeeee;
   padding: 0 0 0 32px;
-  color: #130947;
+  color: #007d34;
   height: 45px;
   display: block;
   width: 100%;
@@ -7672,7 +7672,7 @@ Contact Area CSS
 Footer Area CSS
 =================================================*/
 .footer-area {
-  background-color: #130947;
+  background-color: #007d34;
   padding-top: 100px;
   position: relative;
   z-index: 1;
@@ -7754,7 +7754,7 @@ Footer Area CSS
   width: 30px;
   height: 30px;
   text-align: center;
-  color: #130947;
+  color: #007d34;
   background-color: #f8f8f8;
   font-size: 18px;
   position: relative;
@@ -7835,7 +7835,7 @@ Footer Area CSS
 
 .footer-bottom-area {
   margin-top: 70px;
-  background-color: #07002b;
+  background-color: #007d34;
   padding-top: 25px;
   padding-bottom: 25px;
 }
