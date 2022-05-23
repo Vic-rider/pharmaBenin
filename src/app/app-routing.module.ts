@@ -52,11 +52,16 @@ const routes: Routes = [
     {path: 'live-tracker', component: LiveTrackerComponent},
     {path: 'coming-soon', component: ComingSoonComponent},
     {path: 'contact', component: ContactComponent},
-
     {
         path: 'pharma',
         loadChildren: () => import('./components/pages/pharma-management/pharma-management.module').then(
             m => m.PharmaManagementModule
+        )
+    },
+    {
+        path: 'auth',
+        loadChildren: () => import('./components/pages/auth/auth.module').then(
+            m => m.AuthModule
         )
     },
     {
