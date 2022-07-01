@@ -1,0 +1,115 @@
+$base_color: #003906;
+
+.new_auth_wrapper {
+
+  min-height: 40em;
+  position: relative;
+  background-color: #000;
+
+  .info {
+
+    color: #fff;
+    padding-top: 6em;
+
+    img {
+      width: 120px;
+      margin: 15px auto;
+      border-radius: 50%;
+    }
+
+    h2, h3 {
+      text-align: center;
+      color: #fff;
+    }
+
+    a {
+      color: #fff;
+      max-width: 16em;
+      margin: 0 auto;
+      background-color: darkgray;
+    }
+
+  }
+
+  .new_wrapper_form {
+
+    background-color: #fff;
+  }
+
+}
+
+.new_auth_wrapper::before {
+
+  position: absolute;
+  content: "";
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+  background-image: url('../../../../../assets/_pharma.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.new_wrapper_form {
+
+  padding: 4em;
+
+  .title {
+    text-align: center;
+    font-size: 35px;
+    color: $base_color;
+    font-weight: 500;
+  }
+
+  .form-group {
+    margin: 0 auto;
+    margin-top: 2em;
+    max-width: 40em;
+  }
+
+  h2 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 1em;
+  }
+
+  h4 {
+    font-size: 19px;
+    margin-top: 2em;
+    text-align: center;
+    color: #000;
+  }
+
+  .forgot_password {
+    margin: 0;
+    text-align: end;
+  }
+
+  .form_input {
+
+    text-align: center;
+    padding: 2em;
+
+    button {
+      height: 3em;
+      width: 13em;
+      border: 0;
+      color: #fff;
+      background-color: $base_color;
+      font-size: 16px;
+      font-weight: 500;
+      border-radius: 10px;
+    }
+
+  }
+
+  .last_msg {
+    margin: 0;
+  }
+
+}

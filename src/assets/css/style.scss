@@ -2685,7 +2685,7 @@ Symptoms Area CSS
     z-index: 1;
     background: {
         color: #f1f5fe;
-        image: url(../../assets/img/symptoms-bg.jpg);
+        // image: url(../../assets/img/symptoms-bg.jpg);
         position: -270px center;
         size: cover;
         repeat: no-repeat;
@@ -6635,7 +6635,7 @@ Page Title Area CSS
     &::before {
         width: 100%;
         height: 100%;
-        background-color: $black-color;
+        background-color: #000000;
         opacity: 0.20;
         content: '';
         position: absolute;

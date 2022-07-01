@@ -1,1 +1,65 @@
-<p>login works!</p>
+
+<div class="new_auth_wrapper __row">
+
+    <!-- <div class="col-7 new_wrapper_form">
+
+      <h2 class="title" >Vous connecter</h2>
+
+      <div class="form-group" style="margin-top: 2em;">
+
+        <div class="col-12">
+          <mat-form-field class="width_100" appearance="standard">
+            <mat-label>Email</mat-label>
+            <input matInput [(ngModel)]="user.email" name="email"  type="email" placeholder="Ex. exemple@gmail.com">
+          </mat-form-field>
+        </div>
+
+        <div class="col-12">
+          <mat-form-field class="width_100" appearance="standard">
+            <mat-label>Mot de Passe</mat-label>
+            <input matInput [(ngModel)]="user.password" name="password" [type]="hide ? 'password' : 'text'">
+
+            <mat-icon matSuffix color="primary" class="btn" (click)="hide = !hide">{{hide ? 'visibility_off' : 'visibility'}}</mat-icon>
+          </mat-form-field>
+        </div>
+
+        <h4 class="forgot_password">
+          <a routerLink="/auth/forgot-password"  >Mot de passe oublié ?</a>
+        </h4>
+
+        <div class="form_input"
+          type="submit">
+          <button (click)="submit()"   >
+            <span *ngIf="!load">Se connecter</span>
+            <div *ngIf="load" style="margin-top: 5px;" class="spinner-border text-light" role="status">
+              <span class="sr-only">Loading...</span>
+            </div>
+          </button>
+        </div>
+
+      </div>
+
+    </div> -->
+
+    <div class="col-5 info">
+
+      <div class="logo_content row">
+
+        <img src="../../../../../assets/images/logo_ hub_csu.jpg" alt="">
+
+      </div>
+
+      <h2 class="title">Nouveau</h2>
+
+      <h3>Inscrivez vous pour contribuer au hub
+        du CSU</h3>
+
+      <div class="row">
+
+        <a routerLink="/auth/register" class="btn scu-btn"> S'inscrire Ici.</a>
+
+      </div>
+
+    </div>
+
+  </div>

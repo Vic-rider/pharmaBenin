@@ -64,7 +64,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9jb25zdWx0LW1pbmVzLWxpc3QvY29uc3VsdC1taW5lcy1saXN0LmNvbXBvbmVudC5zY3NzIn0= */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvY29uc3VsdC1taW5lcy1saXN0L2NvbnN1bHQtbWluZXMtbGlzdC5jb21wb25lbnQuc2NzcyJ9 */"]
     });
     /*@__PURE__*/
 
@@ -143,7 +143,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9jb25zdWx0LW5ldy9jb25zdWx0LW5ldy5jb21wb25lbnQuc2NzcyJ9 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvY29uc3VsdC1uZXcvY29uc3VsdC1uZXcuY29tcG9uZW50LnNjc3MifQ== */"]
     });
     /*@__PURE__*/
 
@@ -233,7 +233,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       directives: [_layouts_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_1__["HeaderOneComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]],
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9jb25zdWx0YXRpb24tbWFuYWdlbWVudC5jb21wb25lbnQuc2NzcyJ9 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQuY29tcG9uZW50LnNjc3MifQ== */"]
     });
     /*@__PURE__*/
 
@@ -456,7 +456,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9kb2N0b3JzLW1hbmFnZW1lbnQvY29uc3VsdC1kb2N0b3ItZmF2b3JpdGVzL2NvbnN1bHQtZG9jdG9yLWZhdm9yaXRlcy5jb21wb25lbnQuc2NzcyJ9 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvZG9jdG9ycy1tYW5hZ2VtZW50L2NvbnN1bHQtZG9jdG9yLWZhdm9yaXRlcy9jb25zdWx0LWRvY3Rvci1mYXZvcml0ZXMuY29tcG9uZW50LnNjc3MifQ== */"]
     });
     /*@__PURE__*/
 
@@ -618,7 +618,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-consult-doctors-list"]],
       decls: 54,
       vars: 1,
-      consts: [[1, "page-title-area"], [1, "container"], [1, "page-title-content"], ["routerLink", "/"], [1, "doctors-area", "pt-100", "pb-70"], [1, "row"], ["class", "col-lg-3 col-md-4 col-sm-6 col-12", 4, "ngFor", "ngForOf"], [1, "symptoms-area", "pt-100"], [1, "row", "align-items-center"], [1, "col-lg-6", "col-md-12"], [1, "symptoms-image"], ["src", "assets/img/symptoms-img.png", "alt", "image"], [1, "symptoms-content"], [1, "sub-title"], [1, "flaticon-tick"], [1, "col-lg-3", "col-md-4", "col-sm-6", "col-12"], ["routerLink", "/consultation/doctors/zsfze54", 1, "single-doctors-box"], [1, "image"], ["src", "assets/img/doctors/img1.jpg", "alt", "image"], [1, "social"], ["href", "#", "target", "_blank"], [1, "bx", "bxl-facebook"], [1, "bx", "bxl-twitter"], [1, "bx", "bxl-instagram"], [1, "bx", "bxl-linkedin"], [1, "content"]],
+      consts: [[1, "page-title-area", 2, "background-image", "url('../../../../../../assets/_doctors_list_0.jpg')"], [1, "container"], [1, "page-title-content"], ["routerLink", "/"], [1, "doctors-area", "pt-100", "pb-70"], [1, "row"], ["style", "margin-bottom: 2em;", "class", "col-lg-3 col-md-4 col-sm-6 col-12", 4, "ngFor", "ngForOf"], [1, "symptoms-area", "pt-100"], [1, "row", "align-items-center"], [1, "col-lg-6", "col-md-12"], [1, "symptoms-image"], ["src", "assets/img/symptoms-img.png", "alt", "image"], [1, "symptoms-content"], [1, "sub-title"], [1, "flaticon-tick"], [1, "col-lg-3", "col-md-4", "col-sm-6", "col-12", 2, "margin-bottom", "2em"], ["routerLink", "/consultation/doctors/zsfze54", 1, "single-doctors-box"], [1, "image"], ["src", "../../../../../../assets/_doctors_0.jpg", "alt", "image"], [1, "social"], ["href", "#", "target", "_blank"], [1, "bx", "bxl-facebook"], [1, "bx", "bxl-twitter"], [1, "bx", "bxl-instagram"], [1, "bx", "bxl-linkedin"], [1, "content"]],
       template: function ConsultDoctorsListComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -805,7 +805,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_2__["NgForOf"]],
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9kb2N0b3JzLW1hbmFnZW1lbnQvY29uc3VsdC1kb2N0b3JzLWxpc3QvY29uc3VsdC1kb2N0b3JzLWxpc3QuY29tcG9uZW50LnNjc3MifQ== */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvZG9jdG9ycy1tYW5hZ2VtZW50L2NvbnN1bHQtZG9jdG9ycy1saXN0L2NvbnN1bHQtZG9jdG9ycy1saXN0LmNvbXBvbmVudC5zY3NzIn0= */"]
     });
     /*@__PURE__*/
 
@@ -881,7 +881,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       selectors: [["app-consult-doctors-one"]],
       decls: 233,
       vars: 0,
-      consts: [[1, "page-title-area"], [1, "container"], [1, "page-title-content"], [2, "color", "crimson"], ["routerLink", "/"], ["routerLink", "/consultation"], [1, "product-details-area", "pt-100", "pb-70"], [1, "row"], [1, "col-lg-5", "col-md-12"], ["src", "assets/img/products/img1.jpg", "alt", "image"], [1, "col-lg-7", "col-md-12"], [1, "products-details-desc"], [2, "font-weight", "600"], [2, "font-weight", "400"], [1, "products-review"], [1, "rating"], [1, "bx", "bxs-star"], [1, "bx", "bx-star"], ["id", "accordionEx", "role", "tablist", "aria-multiselectable", "true", 1, "products-details-accordion"], [1, "card"], ["role", "tab", "id", "headingOne", 1, "card-header"], ["data-toggle", "collapse", "data-parent", "#accordionEx", "href", "#collapseOne", "aria-expanded", "false", "aria-controls", "collapseOne", 1, "collapsed"], [1, "flaticon-add"], ["id", "collapseOne", "role", "tabpanel", "aria-labelledby", "headingOne", "data-parent", "#accordionEx", 1, "collapse"], [1, "card-body"], ["role", "tab", "id", "headingThree", 1, "card-header"], ["data-toggle", "collapse", "data-parent", "#accordionEx", "href", "#collapseThree", "aria-expanded", "false", "aria-controls", "collapseThree", 1, "collapsed"], ["id", "collapseThree", "role", "tabpanel", "aria-labelledby", "headingThree", "data-parent", "#accordionEx", 1, "collapse"], [1, "products-review-form"], [1, "review-title"], ["href", "#", 1, "default-btn"], [1, "review-comments"], [1, "review-item"], [1, "review-form"], [1, "col-lg-6", "col-md-6"], [1, "form-group"], ["type", "text", "id", "name", "name", "name", "placeholder", "Enter your name", 1, "form-control"], ["type", "email", "id", "email", "name", "email", "placeholder", "Enter your email", 1, "form-control"], [1, "col-lg-12", "col-md-12"], ["type", "text", "id", "review-title", "name", "review-title", "placeholder", "Enter your review a title", 1, "form-control"], ["name", "review-body", "id", "review-body", "cols", "30", "rows", "6", "placeholder", "Write your comments here", 1, "form-control"], ["type", "submit", 1, "default-btn"], [1, "flaticon-open-book"], [1, "related-products"], [1, "section-title"], [1, "col-lg-3", "col-md-4", "col-sm-6", "col-12"], ["routerLink", "/consultation/doctors/zsfze54", 1, "single-doctors-box"], [1, "image"], ["src", "assets/img/doctors/img1.jpg", "alt", "image"], [1, "social"], ["href", "#", "target", "_blank"], [1, "bx", "bxl-facebook"], [1, "bx", "bxl-twitter"], [1, "bx", "bxl-instagram"], [1, "bx", "bxl-linkedin"], [1, "content"]],
+      consts: [[1, "page-title-area", 2, "background-image", "url('../../../../../../assets/_doctors_0.jpg')"], [1, "container"], [1, "page-title-content"], [2, "color", "crimson"], ["routerLink", "/"], ["routerLink", "/consultation"], [1, "product-details-area", "pt-100", "pb-70"], [1, "row"], [1, "col-lg-5", "col-md-12"], ["src", "../../../../../../assets/_doctors_0.jpg", "alt", "image"], [1, "col-lg-7", "col-md-12"], [1, "products-details-desc"], [2, "font-weight", "600"], [2, "font-weight", "400"], [1, "products-review"], [1, "rating"], [1, "bx", "bxs-star"], [1, "bx", "bx-star"], ["id", "accordionEx", "role", "tablist", "aria-multiselectable", "true", 1, "products-details-accordion"], [1, "card"], ["role", "tab", "id", "headingOne", 1, "card-header"], ["data-toggle", "collapse", "data-parent", "#accordionEx", "href", "#collapseOne", "aria-expanded", "false", "aria-controls", "collapseOne", 1, "collapsed"], [1, "flaticon-add"], ["id", "collapseOne", "role", "tabpanel", "aria-labelledby", "headingOne", "data-parent", "#accordionEx", 1, "collapse"], [1, "card-body"], ["role", "tab", "id", "headingThree", 1, "card-header"], ["data-toggle", "collapse", "data-parent", "#accordionEx", "href", "#collapseThree", "aria-expanded", "false", "aria-controls", "collapseThree", 1, "collapsed"], ["id", "collapseThree", "role", "tabpanel", "aria-labelledby", "headingThree", "data-parent", "#accordionEx", 1, "collapse"], [1, "products-review-form"], [1, "review-title"], ["href", "#", 1, "default-btn"], [1, "review-comments"], [1, "review-item"], [1, "review-form"], [1, "col-lg-6", "col-md-6"], [1, "form-group"], ["type", "text", "id", "name", "name", "name", "placeholder", "Enter your name", 1, "form-control"], ["type", "email", "id", "email", "name", "email", "placeholder", "Enter your email", 1, "form-control"], [1, "col-lg-12", "col-md-12"], ["type", "text", "id", "review-title", "name", "review-title", "placeholder", "Enter your review a title", 1, "form-control"], ["name", "review-body", "id", "review-body", "cols", "30", "rows", "6", "placeholder", "Write your comments here", 1, "form-control"], ["type", "submit", 1, "default-btn"], [1, "flaticon-open-book"], [1, "related-products"], [1, "section-title"], [1, "col-lg-3", "col-md-4", "col-sm-6", "col-12"], ["routerLink", "/consultation/doctors/zsfze54", 1, "single-doctors-box"], [1, "image"], ["src", "../../../../../../assets/_doctors_1.jpg", "alt", "image"], [1, "social"], ["href", "#", "target", "_blank"], [1, "bx", "bxl-facebook"], [1, "bx", "bxl-twitter"], [1, "bx", "bxl-instagram"], [1, "bx", "bxl-linkedin"], [1, "content"]],
       template: function ConsultDoctorsOneComponent_Template(rf, ctx) {
         if (rf & 1) {
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "section", 0);
@@ -1632,7 +1632,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]],
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9kb2N0b3JzLW1hbmFnZW1lbnQvY29uc3VsdC1kb2N0b3JzLW9uZS9jb25zdWx0LWRvY3RvcnMtb25lLmNvbXBvbmVudC5zY3NzIn0= */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvZG9jdG9ycy1tYW5hZ2VtZW50L2NvbnN1bHQtZG9jdG9ycy1vbmUvY29uc3VsdC1kb2N0b3JzLW9uZS5jb21wb25lbnQuc2NzcyJ9 */"]
     });
     /*@__PURE__*/
 
