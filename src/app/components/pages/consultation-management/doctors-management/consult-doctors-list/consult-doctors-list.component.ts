@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { doctors } from 'src/app/components/core/consts/medocs';
 
 @Component({
   selector: 'app-consult-doctors-list',
@@ -8,6 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class ConsultDoctorsListComponent implements OnInit {
 
   tabs = 'anticontitutionellement.'.split('');
+  doctors = doctors;
 
   constructor() { }
 

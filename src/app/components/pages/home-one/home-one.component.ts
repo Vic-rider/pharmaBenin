@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { doctors, medocs } from '../../core/consts/medocs';
 
 @Component({
   selector: 'app-home-one',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeOneComponent implements OnInit {
 
-  constructor() { }
+    medocs = medocs;
+    doctors = doctors;
 
-  ngOnInit(): void {
-  }
+    constructor() { }
+
+    ngOnInit(): void {
+    }
 
 }

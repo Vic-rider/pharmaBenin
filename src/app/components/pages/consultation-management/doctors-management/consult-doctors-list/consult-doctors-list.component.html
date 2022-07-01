@@ -15,11 +15,11 @@
     <div class="container">
         <div class="row">
 
-            <div style="margin-bottom: 2em;" class="col-lg-3 col-md-4 col-sm-6 col-12" *ngFor="let item of tabs ">
+            <div style="margin-bottom: 2em;" class="col-lg-3 col-md-4 col-sm-6 col-12" *ngFor="let item of doctors ">
 
                 <a routerLink="/consultation/doctors/zsfze54" class="single-doctors-box">
                     <div class="image">
-                        <img src="../../../../../../assets/_doctors_0.jpg" alt="image">
+                        <img [src]="item.pic " [alt]="item.name ">
 
                         <ul class="social">
                             <li><a href="#" target="_blank"><i class='bx bxl-facebook'></i></a></li>
@@ -30,8 +30,8 @@
                     </div>
 
                     <div class="content">
-                        <h3>Dr. Addison Smith</h3>
-                        <span>Nephrologists</span>
+                        <h3 style="font-size: 16px;" >Dr. {{ item.name }}</h3>
+                        <span>{{ item.spec }}</span>
                     </div>
                 </a>
 
@@ -41,7 +41,7 @@
     </div>
 </section>
 
-<section class="symptoms-area pt-100">
+<!-- <section class="symptoms-area pt-100">
     <div class="container">
         <div class="row align-items-center">
             <div class="col-lg-6 col-md-12">
@@ -68,4 +68,4 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->

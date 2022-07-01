@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { medocs } from 'src/app/components/core/consts/medocs';
 
 @Component({
   selector: 'app-pharma-one-drugs-list',
@@ -9,9 +10,11 @@ export class PharmaOneDrugsListComponent implements OnInit {
 
     tabs = 'anticontitutionellement.'.split('');
 
-  constructor() { }
+    medocs = medocs;
 
-  ngOnInit(): void {
-  }
+    constructor() { }
+
+    ngOnInit(): void {
+    }
 
 }

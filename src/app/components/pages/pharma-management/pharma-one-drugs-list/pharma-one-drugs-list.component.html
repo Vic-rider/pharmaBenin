@@ -13,12 +13,12 @@
     </div>
 </section>
 
-<section class="product-details-area" style="padding-top: 3em;" >
+<section class="product-details-area" style="padding: 3em;" >
 
     <div class="container">
 
         <div class="row">
-            
+
             <h4>Située au cœur de la zone résidentielle de Cotonou depuis 1985,
                 la Pharmacie Camp Guezo vous accueille du lundi au samedi de 08h à 22h
                 dans son cadre convivial, spécialement aménagé pour le bien-être du visiteur.</h4>
@@ -30,19 +30,19 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12" *ngFor="let item of tabs " >
+            <div class="col-lg-3 col-md-4 col-sm-6 col-12" *ngFor="let item of medocs " >
                 <a class="single-products-box row">
 
-                    <div class="products-image col-3">
+                    <div class="products-image col-4">
                         <a>
-                            <img src="assets/img/products/img1.jpg" alt="image">
+                            <img [src]="item.pic" [alt]="item.name">
                         </a>
                     </div>
 
-                    <div class="products-content col-9">
-                        <h3><a>Paracétamol</a></h3>
+                    <div class="products-content col-8">
+                        <h3><a>{{ item.name }}</a></h3>
                         <div class="price">
-                            <span class="new">100 FCFA</span>
+                            <span class="new">{{ item.price }} XOF</span>
                         </div>
                         <a href="javascript:void()" class="add-to-cart-btn"><i class="flaticon-shopping-cart"></i></a>
                     </div>
