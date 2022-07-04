@@ -3,7 +3,7 @@
   "cli": {
     "analytics": "35197abf-3abd-4928-9925-30c30ef99b0d"
   },
-  "version": 1, 
+  "version": 1,
   "newProjectRoot": "projects",
   "projects": {
     "qovid-ng": {
@@ -27,40 +27,41 @@
             "tsConfig": "tsconfig.app.json",
             "aot": true,
             "assets": [
-                "src/favicon.ico",
-                "src/assets"
+              "src/favicon.ico",
+              "src/assets"
             ],
             "styles": [
-                "node_modules/bootstrap/scss/bootstrap.scss",
-                "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
-                "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
-                "src/assets/css/animate.min.css",
-                "src/assets/css/boxicons.min.css",
-                "src/assets/css/flaticon.css",
-                "src/assets/css/odometer.min.css",
-                "src/assets/css/datatables.min.css",
-                "src/assets/css/magnific-popup.min.css",
-                "src/assets/css/nice-select.min.css",
-                "src/assets/css/slick.min.css",
-                "src/assets/css/style.scss",
-                "src/assets/css/responsive.scss",
-                "src/styles.scss"
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
+              "node_modules/bootstrap/scss/bootstrap.scss",
+              "node_modules/owl.carousel/dist/assets/owl.carousel.min.css",
+              "node_modules/owl.carousel/dist/assets/owl.theme.default.min.css",
+              "src/assets/css/animate.min.css",
+              "src/assets/css/boxicons.min.css",
+              "src/assets/css/flaticon.css",
+              "src/assets/css/odometer.min.css",
+              "src/assets/css/datatables.min.css",
+              "src/assets/css/magnific-popup.min.css",
+              "src/assets/css/nice-select.min.css",
+              "src/assets/css/slick.min.css",
+              "src/assets/css/style.scss",
+              "src/assets/css/responsive.scss",
+              "src/styles.scss"
             ],
             "scripts": [
-                "node_modules/jquery/dist/jquery.min.js",
-                "node_modules/popper.js/dist/umd/popper.min.js",
-                "node_modules/bootstrap/dist/js/bootstrap.min.js",
-                "node_modules/owl.carousel/dist/owl.carousel.min.js",
-                "src/assets/js/mixitup.min.js",
-                "src/assets/js/parallax.min.js",
-                "src/assets/js/datatables.min.js",
-                "src/assets/js/magnific-popup.min.js",
-                "src/assets/js/nice-select.min.js",
-                "src/assets/js/slick.min.js",
-                "src/assets/js/appear.min.js",
-                "src/assets/js/odometer.min.js",
-                "src/assets/js/wow.min.js",
-                "src/assets/js/main.js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/popper.js/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js",
+              "node_modules/owl.carousel/dist/owl.carousel.min.js",
+              "src/assets/js/mixitup.min.js",
+              "src/assets/js/parallax.min.js",
+              "src/assets/js/datatables.min.js",
+              "src/assets/js/magnific-popup.min.js",
+              "src/assets/js/nice-select.min.js",
+              "src/assets/js/slick.min.js",
+              "src/assets/js/appear.min.js",
+              "src/assets/js/odometer.min.js",
+              "src/assets/js/wow.min.js",
+              "src/assets/js/main.js"
             ]
           },
           "configurations": {
@@ -123,6 +124,7 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/@angular/material/prebuilt-themes/purple-green.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -154,6 +156,7 @@
           }
         }
       }
-    }},
+    }
+  },
   "defaultProject": "qovid-ng"
 }

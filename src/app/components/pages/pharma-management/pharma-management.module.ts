@@ -7,6 +7,7 @@ import { PharmaOneDrugsListComponent } from './pharma-one-drugs-list/pharma-one-
 import { RouterModule } from '@angular/router';
 import { LayoutsModule } from '../../layouts/layouts.module';
 import { PharmaOneDrugsDetailsComponent } from './pharma-one-drugs-details/pharma-one-drugs-details.component';
+import { OrderMedicineToPharmaComponent } from './order-medicine-to-pharma/order-medicine-to-pharma.component';
 
 @NgModule({
   imports: [
@@ -39,6 +40,6 @@ import { PharmaOneDrugsDetailsComponent } from './pharma-one-drugs-details/pharm
         ]
     )
   ],
-  declarations: [PharmaManagementComponent, PharmaListComponent, PharmaOneComponent, PharmaOneDrugsListComponent, PharmaOneDrugsDetailsComponent]
+  declarations: [PharmaManagementComponent, PharmaListComponent, PharmaOneComponent, PharmaOneDrugsListComponent, PharmaOneDrugsDetailsComponent, OrderMedicineToPharmaComponent]
 })
 export class PharmaManagementModule { }

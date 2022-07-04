@@ -32,6 +32,7 @@ import { LiveTrackerComponent } from './components/pages/live-tracker/live-track
 import { LiveDataComponent } from './components/layouts/live-data/live-data.component';
 import { LayoutsModule } from './components/layouts/layouts.module';
 import { HomeOneComponent } from './components/pages/home-one/home-one.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -68,6 +69,7 @@ import { HomeOneComponent } from './components/pages/home-one/home-one.component
     AppRoutingModule,
     LayoutsModule,
     HttpClientModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

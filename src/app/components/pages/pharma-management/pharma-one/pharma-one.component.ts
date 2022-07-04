@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PharmaOneComponent implements OnInit {
 
-    tabs = 'anticontitutionellement.'.split('');
+  tabs = 'anticontitutionellement.'.split('');
 
   constructor() { }
 
