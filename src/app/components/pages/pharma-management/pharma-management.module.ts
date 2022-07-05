@@ -17,6 +17,7 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatInputModule } from '@angular/material/input';
 import { MatSelectModule } from '@angular/material/select';
+import { MatIconModule } from '@angular/material/icon';
 
 @NgModule({
   imports: [
@@ -26,7 +27,7 @@ import { MatSelectModule } from '@angular/material/select';
     MatProgressSpinnerModule,
     MatFormFieldModule,
     MatInputModule, MatSelectModule,
-    FormsModule,
+    FormsModule, MatIconModule,MatDialogModule,
     ReactiveFormsModule,
     MaterialModule,
 

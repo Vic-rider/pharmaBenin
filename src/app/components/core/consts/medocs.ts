@@ -3,30 +3,35 @@ export const medocs = [
         name: 'UPSA-C',
         type: 'healthy',
         price: '1000',
+        quantity: 1,
         pic: '../../../assets/images/medocs/upsa-c.jpg'
     },
     {
         name: 'Vitabact',
         type: 'eye',
         price: '1075',
+        quantity: 1,
         pic: '../../../assets/images/medocs/vitabact.jpg'
     },
     {
         name: 'Deslora Denk',
         type: 'antibiotic',
         price: '1500',
+        quantity: 1,
         pic: '../../../assets/images/medocs/deslora-denk.jpg'
     },
     {
         name: 'Nasacort',
         type: 'other',
         price: '2000',
+        quantity: 1,
         pic: '../../../assets/images/medocs/nasacort.jpg'
     },
     {
         name: 'Esbatine',
         type: 'other',
         price: '1800',
+        quantity: 1,
         pic: '../../../assets/images/medocs/esbatine.jpg'
     },
 ]

@@ -1,48 +1,91 @@
+<button mat-icon-button class="close-button" [mat-dialog-close]="true">
+    <mat-icon class="close-icon" color="secondary">close</mat-icon>
+</button>
+
 <h3>
     <strong>Nouvelle Commande</strong>
 </h3>
 
-<div  class="form-group row" style="margin-top: 1em;">
+<div *ngIf="!orderingDone"  class="form-group row" style="margin-top: 1em;">
 
     <div class="col-12">
         <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Toppings</mat-label>
-            <mat-select [formControl]="toppings" multiple>
-              <!-- <mat-select-trigger>
-                {{toppings.value?.[0] || ''}}
-                <span *ngIf="(toppings.value?.length || 0) > 1" class="example-additional-selection">
-                  (+{{(toppings.value?.length || 0) - 1}} {{toppings.value?.length === 2 ? 'other' : 'others'}})
-                </span>
-              </mat-select-trigger> -->
-              <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+            <mat-label>Médicaments</mat-label>
+            <mat-select [(ngModel)]="selectedMedocs" multiple>
+              <mat-option *ngFor="let medoc of medocs" [value]="medoc">{{medoc.name}}</mat-option>
             </mat-select>
         </mat-form-field>
     </div>
 
-    <div class="col-6">
+    <div class="col-12 all_medocs">
+
+        <h4 *ngIf="selectedMedocs.length == 0" style="text-align: center; margin-top: 2em" >Aucun médicaments selectionné !</h4>
+
+        <div class="medoc row" *ngFor="let medoc of selectedMedocs; let i = index" >
+
+            <div class="col-5">
+                <h3><strong>{{ medoc.name }}</strong></h3>
+            </div>
+
+            <div class="col-5">
+                <h3><strong>{{ medoc.price * medoc.quantity }}</strong> XOF </h3>
+            </div>
+
+            <!-- <div class="col-2 product-quantity">
+                <div class="input-counter">
+                    <span class="minus-btn"><i class='bx bx-minus'></i></span>
+                    <input type="text" [(ngModel)]="medoc.quantity" name="medoc_{{ i }}" min="1" max="10">
+                    <span class="plus-btn"><i class='bx bx-plus'></i></span>
+                </div>
+            </div> -->
+
+            <div class="col-2">
+                <!-- <mat-form-field class="width_100" appearance="standard">
+                  <input matInput [(ngModel)]="medoc.quantity" name="medoc_{{ i }}"  type="number" min="1" max="10" placeholder="quantité">
+                </mat-form-field> -->
+                <input matInput [(ngModel)]="medoc.quantity" name="medoc_{{ i }}"  type="number" min="1" max="10" placeholder="quantité">
+            </div>
+
+        </div>
+
+    </div>
+
+    <h3 *ngIf="selectedMedocs.length != 0" class="col-12" style="text-align: right; margin: 10px 10px 0 0;" > <strong>Total : </strong> {{ getTotal() }} <strong>XOF</strong></h3>
+
+    <!-- <div class="col-6">
       <mat-form-field class="width_100" appearance="standard">
         <mat-label>Nom</mat-label>
         <input matInput   type="text" placeholder="Ex. .">
       </mat-form-field>
-    </div>
+    </div> -->
 
-    <div class="col-6">
-      <mat-form-field class="width_100" appearance="standard">
-        <mat-label>Nom</mat-label>
-        <input matInput   type="text" placeholder="Ex. .">
-      </mat-form-field>
-    </div>
+    <div class="form_input col-12 row" style="margin-top: 2em">
 
-    <div class="form_input"
-      type="submit">
-      <button
+      <button class="valid_btn" style="margin: 0 auto;"
         (click)="submit()"
         type="submit" >
-        <span *ngIf="!load">Créer un compte</span>
+        <span *ngIf="!load">Commander</span>
         <div *ngIf="load" style="margin-top: 5px;" class="spinner-border text-light" role="status">
           <span class="sr-only">Loading...</span>
         </div>
       </button>
+
     </div>
 
-  </div>
+</div>
+
+<div *ngIf="orderingDone"  class="form-group" style="margin-top: 1em;">
+
+    <div class="row">
+
+        <h4 style="text-align: center" >Rendez-vous à la pharmacie pour récuperer votre commande, et N'oubliez pas votre <span style="color: rgb(20, 220, 120)"><strong>ordonance</strong></span>.</h4>
+
+    </div>
+
+    <div class=" row">
+
+    </div>
+
+    <h3 style="text-align: center" > Ici  <span style="color: crimson" ><strong>PB-000062-F8R</strong></span>  votre numéro de Commande ( <strong>Elle servira à vous identifier votre commande</strong> ) </h3>
+
+</div>

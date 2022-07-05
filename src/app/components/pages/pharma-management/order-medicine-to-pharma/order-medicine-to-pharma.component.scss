@@ -114,3 +114,38 @@ $base_color: #003906;
   }
 
 }
+
+
+.all_medocs {
+
+    border-radius: 13px;
+    border: 2px gray dashed;
+    min-height: 6em;
+    padding: 0 10px;
+
+    .medoc {
+        border-bottom: 2px rgb(76, 160, 76) solid;
+        margin: 1em;
+    }
+
+}
+
+button {
+    border: none;
+}
+
+.close-button {
+    position: relative;
+    right: 2px;
+}
+
+.valid_btn{
+    height: 40px;
+    border: none;
+    background-color: #047c34;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 6px;
+    padding: 0 20px;
+    color: #fff;
+}

@@ -21,6 +21,25 @@
   flex: 1 1 auto;
 }
 
+.close-button{
+  float: right;
+  top: -16px;
+  right: -16px;
+  background-color: snow !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
+.close-button:hover{
+  background-color: snow!important;
+}
+
+.close-icon {
+  color: gray;
+  float: left;
+  margin: -2px;
+}
+
 .width_100 {
     width: 100%;
 }
