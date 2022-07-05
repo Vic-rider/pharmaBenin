@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
+import { MatDialogRef } from '@angular/material/dialog';
 import { medocs } from 'src/app/components/core/consts/medocs';
 import { environment } from 'src/environments/environment';
 
@@ -31,9 +32,15 @@ export class OrderMedicineToPharmaComponent implements OnInit {
 
   userData = JSON.parse(localStorage.getItem(environment.PB_userData));
 
-  constructor() { }
+  constructor(
+    public dialogRef: MatDialogRef<OrderMedicineToPharmaComponent>,
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  closeModal() {
+    this.dialogRef.close();
   }
 
   submit() {

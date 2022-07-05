@@ -7,7 +7,7 @@
 </h3>
 
 <!-- user connected -->
-<div class="">
+<div *ngIf="userData" class="">
 
     <div *ngIf="!orderingDone"  class="form-group row" style="margin-top: 1em;">
 
@@ -96,13 +96,13 @@
 </div>
 
 <!-- user not connected -->
-<div class="">
+<div *ngIf="!userData" class="">
 
     <div class="form-group" style="margin-top: 1em;">
 
         <div class="row">
 
-            <h3 style="text-align: center" >Désolé, vous n'êtes pas connecté. Veuiler le faire avant votre commande ( <a routerLink="/auth/login">Vous connecter ici !</a> )</h3>
+            <h3 style="text-align: center" >Désolé, vous n'êtes pas connecté. Veuiler le faire avant votre commande ( <a (click)="closeModal()" style="color: crimson;" routerLink="/auth/login"> <strong>Vous connecter ici !</strong> </a> )</h3>
 
         </div>
     </div>
