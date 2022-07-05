@@ -790,7 +790,7 @@ class FooterComponent {
     }
 }
 FooterComponent.ɵfac = function FooterComponent_Factory(t) { return new (t || FooterComponent)(); };
-FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 71, vars: 0, consts: [[1, "footer-area", 2, "background-color", "rgb(160, 159, 159)"], [1, "container"], [1, "subscribe-area"], [1, "row", "align-items-center"], [1, "col-lg-5", "col-md-12"], [1, "col-lg-7", "col-md-12"], [1, "newsletter-form"], ["type", "text", "placeholder", "Entrer votre e-mail", "name", "EMAIL", 1, "input-newsletter"], ["type", "submit"], [1, "flaticon-plane"], [1, "row"], [1, "col-lg-3", "col-md-6", "col-sm-6"], [1, "single-footer-widget"], ["routerLink", "/", 1, "logo"], ["src", "../../../../assets/images/logo_2-removebg-preview.png", "alt", "logo"], [1, "social-link"], ["href", "#", "target", "_blank", 1, "d-block"], [1, "bx", "bxl-facebook"], [1, "bx", "bxl-twitter"], [1, "bx", "bxl-instagram"], [1, "bx", "bxl-linkedin"], [1, "bx", "bxl-pinterest-alt"], [1, "col-lg-4", "col-md-6", "col-sm-6"], [1, "footer-contact-info"], ["href", "mailto:hello@qovid.com"], ["href", "tel:+44587154756"], [1, "search-overlay"], [1, "d-table"], [1, "d-table-cell"], [1, "search-overlay-layer"], [1, "search-overlay-close"], [1, "search-overlay-close-line"], [1, "search-overlay-form"], ["type", "text", "placeholder", "Search here...", 1, "input-search"], [1, "bx", "bx-search-alt"], [1, "go-top"], [1, "bx", "bx-up-arrow-alt"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
+FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: FooterComponent, selectors: [["app-footer"]], decls: 71, vars: 0, consts: [[1, "footer-area", 2, "background-color", "rgb(160, 159, 159)"], [1, "container"], [1, "subscribe-area"], [1, "row", "align-items-center"], [1, "col-lg-5", "col-md-12"], [1, "col-lg-7", "col-md-12"], [1, "newsletter-form"], ["type", "text", "placeholder", "Entrer votre e-mail", "name", "EMAIL", 1, "input-newsletter"], ["type", "submit"], [1, "flaticon-plane"], [1, "row"], [1, "col-lg-3", "col-md-6", "col-sm-6"], [1, "single-footer-widget"], ["routerLink", "/", 1, "logo"], ["src", "../../../../assets/images/logo_2-removebg-preview.png", "alt", "logo"], [1, "social-link"], ["href", "#", "target", "_blank", 1, "d-block"], [1, "bx", "bxl-facebook"], [1, "bx", "bxl-twitter"], [1, "bx", "bxl-instagram"], [1, "bx", "bxl-linkedin"], [1, "bx", "bxl-pinterest-alt"], [1, "col-lg-4", "col-md-6", "col-sm-6"], [1, "footer-contact-info"], ["href", "mailtobaudino.thibaut@gmail.com"], ["href", "tel:+22966764170"], [1, "search-overlay"], [1, "d-table"], [1, "d-table-cell"], [1, "search-overlay-layer"], [1, "search-overlay-close"], [1, "search-overlay-close-line"], [1, "search-overlay-form"], ["type", "text", "placeholder", "Search here...", 1, "input-search"], [1, "bx", "bx-search-alt"], [1, "go-top"], [1, "bx", "bx-up-arrow-alt"]], template: function FooterComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "footer", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -857,16 +857,16 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "ul", 23);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "span");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Address:");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Addresse:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, " 2750 Quadra Street Victoria, Canada.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, " 12 rue a\u00E9roport cotonou ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "span");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Email:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "a", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "hello@qovid.com");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "baudino.thibaut@gmail.com");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "li");
@@ -874,7 +874,7 @@ FooterComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineCo
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Phone:");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "a", 25);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "+44 587 154756");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](54, "+22966764170");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
