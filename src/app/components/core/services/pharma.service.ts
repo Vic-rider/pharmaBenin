@@ -15,4 +15,9 @@ export class PharmaService {
         return this._http.get(environment.baseUrl + 'pharmacies')
     }
 
+    getPharmaById(pharmaId:string) {
+        return this._http.get(environment.baseUrl + 'pharmacies/' + pharmaId)
+    }
+
+
 }

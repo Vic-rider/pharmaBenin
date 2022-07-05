@@ -64,7 +64,7 @@
 /******/
 /******/ 	// script path function
 /******/ 	function jsonpScriptSrc(chunkId) {
-/******/ 		return __webpack_require__.p + "" + ({"components-pages-auth-auth-module":"components-pages-auth-auth-module","components-pages-consultation-management-consultation-management-module":"components-pages-consultation-management-consultation-management-module","components-pages-pharma-management-pharma-management-module":"components-pages-pharma-management-pharma-management-module"}[chunkId]||chunkId) + "-es2015.js"
+/******/ 		return __webpack_require__.p + "" + ({"components-pages-consultation-management-consultation-management-module":"components-pages-consultation-management-consultation-management-module","default~components-pages-auth-auth-module~components-pages-pharma-management-pharma-management-module":"default~components-pages-auth-auth-module~components-pages-pharma-management-pharma-management-module","components-pages-auth-auth-module":"components-pages-auth-auth-module","components-pages-pharma-management-pharma-management-module":"components-pages-pharma-management-pharma-management-module"}[chunkId]||chunkId) + "-es2015.js"
 /******/ 	}
 /******/
 /******/ 	// The require function

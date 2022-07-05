@@ -9,10 +9,27 @@ import { LayoutsModule } from '../../layouts/layouts.module';
 import { PharmaOneDrugsDetailsComponent } from './pharma-one-drugs-details/pharma-one-drugs-details.component';
 import { OrderMedicineToPharmaComponent } from './order-medicine-to-pharma/order-medicine-to-pharma.component';
 
+//material modules
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
+import {MatDialogModule} from '@angular/material/dialog';
+import { MaterialModule } from '../../core/modules/material.module';
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MatInputModule } from '@angular/material/input';
+import { MatSelectModule } from '@angular/material/select';
+
 @NgModule({
   imports: [
     CommonModule,
     LayoutsModule,
+
+    MatProgressSpinnerModule,
+    MatFormFieldModule,
+    MatInputModule, MatSelectModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MaterialModule,
+
     RouterModule.forChild(
         [
             {
@@ -40,6 +57,10 @@ import { OrderMedicineToPharmaComponent } from './order-medicine-to-pharma/order
         ]
     )
   ],
-  declarations: [PharmaManagementComponent, PharmaListComponent, PharmaOneComponent, PharmaOneDrugsListComponent, PharmaOneDrugsDetailsComponent, OrderMedicineToPharmaComponent]
+  declarations: [
+      PharmaManagementComponent, PharmaListComponent,
+      PharmaOneComponent, PharmaOneDrugsListComponent,
+      PharmaOneDrugsDetailsComponent, OrderMedicineToPharmaComponent
+  ]
 })
 export class PharmaManagementModule { }

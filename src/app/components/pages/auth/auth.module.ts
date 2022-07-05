@@ -7,10 +7,24 @@ import { ForgotPasswordComponent } from './forgot-password/forgot-password.compo
 import { RouterModule } from '@angular/router';
 import { LayoutsModule } from '../../layouts/layouts.module';
 
+import { MaterialModule } from '../../core/modules/material.module';
+
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+
+import { MatFormFieldModule } from '@angular/material/form-field';
+import { MatInputModule } from '@angular/material/input';
+import { MatAutocompleteModule } from '@angular/material/autocomplete';
+
 @NgModule({
   imports: [
     CommonModule,
     LayoutsModule,
+    MaterialModule,
+    FormsModule,
+    ReactiveFormsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatAutocompleteModule,
     RouterModule.forChild(
         [
             {

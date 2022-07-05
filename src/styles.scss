@@ -1,6 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/theming';
+
+  $base_color: #047c34;
+  $pink_color: #FF4BB5;
+
+  $primary: ( Main:#047c34, Light:#D7C9BD, A100: #9E8169, contrast: ( Main: #f5f5f5, Light: #000, Dark: #959595));
+  // $secondary: (Main: #D7C9BD, Light:#D7C9BD, A100: #9E8169)
+
+
+  /* ======== Angular material custom themes ======== */
+
+  $my-custom-primary: mat-palette($primary, Main, Light, A100);
+  $my-custom-accent: mat-palette($mat-pink, 100, 500, A100);
+  $my-custom-warn: mat-palette($mat-red);
+  $my-custom-theme: mat-light-theme($my-custom-primary, $my-custom-accent, $my-custom-warn);
+
+  @include angular-material-theme($my-custom-theme);
+
 .spacer {
   flex: 1 1 auto;
+}
+
+.width_100 {
+    width: 100%;
 }
 
 ._row {
@@ -12,6 +34,8 @@
 .__row {
   display: flex;
 }
+
+
 
 
 html, body { height: 100%; }

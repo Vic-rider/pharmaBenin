@@ -2,23 +2,25 @@
 <section class="page-title-area" style="background-image: url('http://pharmaciecampguezo.net/wp-content/uploads/2018/02/PCG1.jpg');">
     <div class="container">
         <div class="page-title-content">
-            <h2>Pharmacie Camp Guezo</h2>
+            <h2>Pharmacie <span  > {{ pharma ? pharma.attributes.libelle : '__' }} </span> </h2>
             <ul>
                 <li><a routerLink="/">Home</a></li>
                 <li><a routerLink="/pharma">Pharmacies de Garde</a></li>
-                <li>Pharmacie Camp Guezo</li>
+                <li  >Pharmacie <span  > {{ pharma ? pharma.attributes.libelle : '__' }} </span> </li>
             </ul>
         </div>
     </div>
 </section>
 
-<section class="product-details-area" style="padding-top: 3em;" >
+<mat-spinner *ngIf="!pharma" diameter="60" style="margin: 8em auto;" ></mat-spinner>
+
+<section *ngIf="pharma" class="product-details-area" style="padding-top: 3em;" >
 
     <div class="container">
 
         <div class="row" style="margin-bottom: 2em">
             <div class="spacer"></div>
-            <a routerLink="drugs" class="default-btn">
+            <a (click)="openOrderForm()" style="cursor: pointer;" class="default-btn">
                 <i class="flaticon-medicine"></i>
                 Faites votre commande ici !
             </a>
@@ -27,7 +29,7 @@
         <div class="row">
 
             <h4>Située au cœur de la zone résidentielle de Cotonou depuis 1985,
-                la Pharmacie Camp Guezo vous accueille du lundi au samedi de 08h à 22h
+                la Pharmacie  vous accueille du lundi au samedi de 08h à 22h
                 dans son cadre convivial, spécialement aménagé pour le bien-être du visiteur.</h4>
 
         </div>
@@ -49,7 +51,7 @@
         </div>
     </div>
 
-    <div class="related-products" style="margin-bottom: 3em;">
+    <!-- <div class="related-products" style="margin-bottom: 3em;">
         <div class="container">
             <div class="section-title">
                 <h2>Autres Pharmacies à Proximité</h2>
@@ -131,6 +133,6 @@
 
             </div>
         </div>
-    </div>
+    </div> -->
 
 </section>

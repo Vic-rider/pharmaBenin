@@ -10,6 +10,8 @@
     </div>
 </section>
 
+<mat-spinner *ngIf="pharmaList.length == 0" diameter="60" style="margin: 2em auto;" ></mat-spinner>
+
 <section class="products-area ptb-100">
     <div class="container">
         <div class="row">
@@ -38,11 +40,11 @@
 
             <div *ngFor="let pharma of pharmaList" class="col-lg-3 col-md-4 col-sm-6 col-12" >
 
-                <a routerLink="/pharma/56qdc6" class="single-products-box row">
+                <a routerLink="/pharma/{{ pharma.id }}" class="single-products-box row">
 
                     <div class="products-image col-4">
-                        <a routerLink="/pharma/56qdc6">
-                            <img src="../../../../../assets/_pharma_one.jpg" alt="image">
+                        <a routerLink="/pharma/{{ pharma.id }}">
+                            <img src="../../../../../assets/images/pharma_logo.png" alt="image">
                         </a>
                     </div>
 

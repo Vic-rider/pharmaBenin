@@ -1,1 +1,48 @@
-<p>order-medicine-to-pharma works!</p>
+<h3>
+    <strong>Nouvelle Commande</strong>
+</h3>
+
+<div  class="form-group row" style="margin-top: 1em;">
+
+    <div class="col-12">
+        <mat-form-field class="width_100" appearance="standard">
+            <mat-label>Toppings</mat-label>
+            <mat-select [formControl]="toppings" multiple>
+              <!-- <mat-select-trigger>
+                {{toppings.value?.[0] || ''}}
+                <span *ngIf="(toppings.value?.length || 0) > 1" class="example-additional-selection">
+                  (+{{(toppings.value?.length || 0) - 1}} {{toppings.value?.length === 2 ? 'other' : 'others'}})
+                </span>
+              </mat-select-trigger> -->
+              <mat-option *ngFor="let topping of toppingList" [value]="topping">{{topping}}</mat-option>
+            </mat-select>
+        </mat-form-field>
+    </div>
+
+    <div class="col-6">
+      <mat-form-field class="width_100" appearance="standard">
+        <mat-label>Nom</mat-label>
+        <input matInput   type="text" placeholder="Ex. .">
+      </mat-form-field>
+    </div>
+
+    <div class="col-6">
+      <mat-form-field class="width_100" appearance="standard">
+        <mat-label>Nom</mat-label>
+        <input matInput   type="text" placeholder="Ex. .">
+      </mat-form-field>
+    </div>
+
+    <div class="form_input"
+      type="submit">
+      <button
+        (click)="submit()"
+        type="submit" >
+        <span *ngIf="!load">Créer un compte</span>
+        <div *ngIf="load" style="margin-top: 5px;" class="spinner-border text-light" role="status">
+          <span class="sr-only">Loading...</span>
+        </div>
+      </button>
+    </div>
+
+  </div>
