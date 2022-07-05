@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl } from '@angular/forms';
 import { medocs } from 'src/app/components/core/consts/medocs';
+import { environment } from 'src/environments/environment';
 
 interface Medoc {
     name: string;
@@ -27,6 +28,8 @@ export class OrderMedicineToPharmaComponent implements OnInit {
   selectedMedocs: Array<Medoc> = [];
 
   toppingList: string[] = ['UPSA-C', 'Vitabact', 'Deslora Denk', 'Nasacort', 'Esbatine'];
+
+  userData = JSON.parse(localStorage.getItem(environment.PB_userData));
 
   constructor() { }
 

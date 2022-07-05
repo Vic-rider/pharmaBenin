@@ -120,11 +120,11 @@
 
                         <div class="others-option d-flex align-items-center">
 
-                            <div class="option-item">
+                            <!-- <div class="option-item">
                                 <div class="cart-btn">
                                     <a routerLink="/cart"><i class='bx bx-shopping-bag'></i><span>3</span></a>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <!-- <div class="option-item">
                                 <div class="search-btn-box">
@@ -132,7 +132,20 @@
                                 </div>
                             </div> -->
 
-                            <div class="option-item">
+                            <a *ngIf="userData">
+
+                                <img mat-button [matMenuTriggerFor]="beforeMenu" style="cursor: pointer; border-radius: 50%; width: 40px" src="https://ui-avatars.com/api/?background=random&name={{ userData.email }}" alt="">
+
+                                <mat-menu #beforeMenu="matMenu" xPosition="before">
+                                    <button mat-menu-item (click)="logOut()">
+                                        <mat-icon mat-list-icon color="primary">power_settings_new</mat-icon>
+                                        Déconnexion
+                                    </button>
+                                </mat-menu>
+
+                            </a>
+
+                            <div *ngIf="!userData" class="option-item">
                                 <a routerLink="/auth/login" class="default-btn"><i class="flaticon-open-book"></i> Conectez-vous</a>
                             </div>
 

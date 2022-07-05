@@ -8,6 +8,9 @@ import { FooterComponent } from './footer/footer.component';
 import { HeaderOneComponent } from './header-one/header-one.component';
 import { OnepageNavbarComponent } from './onepage-navbar/onepage-navbar.component';
 import { RouterModule } from '@angular/router';
+import { MaterialModule } from '../core/modules/material.module';
+import { MatIconModule } from '@angular/material/icon';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -21,7 +24,10 @@ import { RouterModule } from '@angular/router';
 ],
 imports: [
     CommonModule,
-    RouterModule
+    RouterModule,
+    MaterialModule,
+    MatIconModule,
+    MatMenuModule
 ],
 exports: [
   HeaderOneComponent,

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { environment } from 'src/environments/environment';
+import { AuthService } from '../../core/services/auth.service';
 
 @Component({
   selector: 'app-header-one',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderOneComponent implements OnInit {
 
-  constructor() { }
+  userData = JSON.parse(localStorage.getItem(environment.PB_userData));
+
+  constructor(
+      private authServices: AuthService
+  ) { }
 
   ngOnInit(): void {
+  }
+
+  logOut() {
+      this.authServices.logOut()
   }
 
 }

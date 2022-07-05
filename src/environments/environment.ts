@@ -4,7 +4,9 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'https://apipharma.herokuapp.com/api/'
+  baseUrl: 'https://apipharma.herokuapp.com/api/',
+  PB_token: 'pharmaBenin_token',
+  PB_userData: 'pharmaBenin_userData'
 };
 
 /*
