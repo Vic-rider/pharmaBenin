@@ -36,7 +36,7 @@
 
             </div> -->
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
+            <div *ngFor="let pharma of pharmaList" class="col-lg-3 col-md-4 col-sm-6 col-12" >
 
                 <a routerLink="/pharma/56qdc6" class="single-products-box row">
 
@@ -47,10 +47,10 @@
                     </div>
 
                     <div class="products-content col-8">
-                        <h3><a routerLink="/pharma/56qdc6">Pharmacie La Ruche</a></h3>
+                        <h3><a routerLink="/pharma/{{ pharma.id }}">{{ pharma.attributes.libelle }}</a></h3>
                         <div class="price">
                             <i class="flaticon-381-map-2"></i>
-                            <span class="new">Agla | 10min </span>
+                            <span class="new">{{ pharma.attributes.quatier }} </span>
                         </div>
                     </div>
 
@@ -58,7 +58,7 @@
 
             </div>
 
-            <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
+            <!-- <div class="col-lg-3 col-md-4 col-sm-6 col-12" >
 
                 <a routerLink="/pharma/56qdc6" class="single-products-box row">
 
@@ -100,7 +100,7 @@
 
                 </a>
 
-            </div>
+            </div> -->
 
         </div>
     </div>

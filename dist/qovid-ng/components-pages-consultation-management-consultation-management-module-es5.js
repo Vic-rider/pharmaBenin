@@ -64,7 +64,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvY29uc3VsdC1taW5lcy1saXN0L2NvbnN1bHQtbWluZXMtbGlzdC5jb21wb25lbnQuc2NzcyJ9 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9jb25zdWx0LW1pbmVzLWxpc3QvY29uc3VsdC1taW5lcy1saXN0LmNvbXBvbmVudC5zY3NzIn0= */"]
     });
     /*@__PURE__*/
 
@@ -143,7 +143,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvY29uc3VsdC1uZXcvY29uc3VsdC1uZXcuY29tcG9uZW50LnNjc3MifQ== */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9jb25zdWx0LW5ldy9jb25zdWx0LW5ldy5jb21wb25lbnQuc2NzcyJ9 */"]
     });
     /*@__PURE__*/
 
@@ -233,7 +233,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       directives: [_layouts_header_one_header_one_component__WEBPACK_IMPORTED_MODULE_1__["HeaderOneComponent"], _angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterOutlet"]],
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQuY29tcG9uZW50LnNjc3MifQ== */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9jb25zdWx0YXRpb24tbWFuYWdlbWVudC5jb21wb25lbnQuc2NzcyJ9 */"]
     });
     /*@__PURE__*/
 
@@ -456,7 +456,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
           _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         }
       },
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvZG9jdG9ycy1tYW5hZ2VtZW50L2NvbnN1bHQtZG9jdG9yLWZhdm9yaXRlcy9jb25zdWx0LWRvY3Rvci1mYXZvcml0ZXMuY29tcG9uZW50LnNjc3MifQ== */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9kb2N0b3JzLW1hbmFnZW1lbnQvY29uc3VsdC1kb2N0b3ItZmF2b3JpdGVzL2NvbnN1bHQtZG9jdG9yLWZhdm9yaXRlcy5jb21wb25lbnQuc2NzcyJ9 */"]
     });
     /*@__PURE__*/
 
@@ -598,19 +598,19 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
       }
 
       if (rf & 2) {
-        var item_r7 = ctx.$implicit;
+        var item_r9 = ctx.$implicit;
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](3);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", item_r7.pic, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", item_r7.name);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("src", item_r9.pic, _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵsanitizeUrl"])("alt", item_r9.name);
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](16);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Dr. ", item_r7.name, "");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate1"]("Dr. ", item_r9.name, "");
 
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](2);
 
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](item_r7.spec);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtextInterpolate"](item_r9.spec);
       }
     }
 
@@ -704,7 +704,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       directives: [_angular_router__WEBPACK_IMPORTED_MODULE_2__["RouterLinkWithHref"], _angular_common__WEBPACK_IMPORTED_MODULE_3__["NgForOf"]],
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvZG9jdG9ycy1tYW5hZ2VtZW50L2NvbnN1bHQtZG9jdG9ycy1saXN0L2NvbnN1bHQtZG9jdG9ycy1saXN0LmNvbXBvbmVudC5zY3NzIn0= */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9kb2N0b3JzLW1hbmFnZW1lbnQvY29uc3VsdC1kb2N0b3JzLWxpc3QvY29uc3VsdC1kb2N0b3JzLWxpc3QuY29tcG9uZW50LnNjc3MifQ== */"]
     });
     /*@__PURE__*/
 
@@ -1531,7 +1531,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         }
       },
       directives: [_angular_router__WEBPACK_IMPORTED_MODULE_1__["RouterLinkWithHref"]],
-      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2NvbXBvbmVudHMvcGFnZXMvY29uc3VsdGF0aW9uLW1hbmFnZW1lbnQvZG9jdG9ycy1tYW5hZ2VtZW50L2NvbnN1bHQtZG9jdG9ycy1vbmUvY29uc3VsdC1kb2N0b3JzLW9uZS5jb21wb25lbnQuc2NzcyJ9 */"]
+      styles: ["\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiIuLi9jb25zdWx0YXRpb24tbWFuYWdlbWVudC9kb2N0b3JzLW1hbmFnZW1lbnQvY29uc3VsdC1kb2N0b3JzLW9uZS9jb25zdWx0LWRvY3RvcnMtb25lLmNvbXBvbmVudC5zY3NzIn0= */"]
     });
     /*@__PURE__*/
 

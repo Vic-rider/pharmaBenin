@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { PharmaService } from 'src/app/components/core/services/pharma.service';
 
 @Component({
   selector: 'app-pharma-list',
@@ -8,10 +9,27 @@ import { Component, OnInit } from '@angular/core';
 export class PharmaListComponent implements OnInit {
 
     tabs = 'anticontitutionellement.'.split('');
+    pharmaList = [];
 
-  constructor() { }
+    constructor(
+        private pharmaServices: PharmaService
+    ) { }
 
-  ngOnInit(): void {
-  }
+    ngOnInit(): void {
+
+        this.pharmaServices.getPharmaList().subscribe(
+            (res:any) => {
+                this.pharmaList = res.data
+                console.log(this.pharmaList )
+            },
+            (err:any) => {
+
+            },
+            () => {
+
+            }
+        )
+
+    }
 
 }

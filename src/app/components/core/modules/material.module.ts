@@ -45,7 +45,7 @@
 // import {OverlayModule} from '@angular/cdk/overlay';
 
 // @NgModule({
-//   exports: [
+//   imports: [
 //     A11yModule,
 //     CdkAccordionModule,
 //     ClipboardModule,
@@ -93,4 +93,5 @@
 //     ScrollingModule,
 //   ]
 // })
+
 // export class MaterialModule {}
