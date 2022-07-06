@@ -5,3 +5,18 @@
     }
 
 }
+
+
+@media only screen and (max-width: 767px) {
+
+    .qovid-nav .navbar .navbar-nav {
+        border: 1px solid #eeeeee;
+        padding: 10px 20px;
+        height: auto !important;
+        background-color: #ffffff;
+        overflow-y: auto !important;
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+}

@@ -27,12 +27,38 @@
 
     <!-- Start Navbar Area -->
     <div class="navbar-area">
+
         <div class="qovid-nav">
+
             <div class="container">
+
                 <nav class="navbar navbar-expand-md navbar-light">
+
                     <a class="navbar-brand" routerLink="/">
                         <img src="../../../../assets/images/logo_2-removebg-preview.png" alt="logo">
                     </a>
+
+                    <!-- <div *ngIf="isOnPhoneWidth">
+
+                        <a *ngIf="userData">
+
+                            <img mat-button [matMenuTriggerFor]="beforeMenu" style="cursor: pointer; border-radius: 50%; width: 40px" src="https://ui-avatars.com/api/?background=random&name={{ userData.email }}" alt="">
+
+                            <mat-menu #beforeMenu="matMenu" xPosition="before">
+                                <button mat-menu-item (click)="logOut()">
+                                    <mat-icon mat-list-icon color="primary">power_settings_new</mat-icon>
+                                    Déconnexion
+                                </button>
+                                <mat-divider></mat-divider>
+                                <button mat-menu-item (click)="logOut()">
+                                    <mat-icon mat-list-icon color="primary">power_settings_new</mat-icon>
+                                    Déconnexion
+                                </button>
+                            </mat-menu>
+
+                        </a>
+
+                    </div> -->
 
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -158,8 +184,11 @@
                     </div>
 
                 </nav>
+
             </div>
+
         </div>
+
     </div>
     <!-- End Navbar Area -->
 

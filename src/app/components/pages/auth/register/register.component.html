@@ -11,100 +11,19 @@
 
       <div *ngIf="!registerDone" class="form-group row" style="margin-top: 2em;">
 
-        <div class="col-6">
+        <div class="col-12">
           <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Nom</mat-label>
-            <input matInput [(ngModel)]="user.lastName" name="lastName"  type="text" placeholder="Ex. .">
+            <mat-label>Nom d'utilisateur</mat-label>
+            <input matInput [(ngModel)]="user.username" name="firstName" type="text" placeholder="Ex. .">
           </mat-form-field>
         </div>
 
-        <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Prénom</mat-label>
-            <input matInput [(ngModel)]="user.firstName" name="firstName" type="text" placeholder="Ex. .">
-          </mat-form-field>
-        </div>
-
-        <div class="col-6">
+        <div class="col-12">
           <mat-form-field class="width_100" appearance="standard">
             <mat-label>Email</mat-label>
             <input matInput [(ngModel)]="user.email" name="email" type="email" placeholder="Ex. exemaple@gmail.com">
           </mat-form-field>
         </div>
-
-        <!-- <div class="col-12">
-
-          <mat-form-field class="width_100" appearance="standard">
-
-            <mat-label>Genre</mat-label>
-
-            <mat-select [(ngModel)]="user.gender">
-              <mat-option (click)="changeCountryVal(false)" (click)="changeGenderVal(false)"  value="M">Masculin</mat-option>
-              <mat-option (click)="changeCountryVal(false)" (click)="changeGenderVal(false)" value="F">Féminin</mat-option>
-              <mat-option (click)="changeCountryVal(false)" (click)="changeGenderVal(true )" value="">Autre</mat-option>
-            </mat-select>
-
-          </mat-form-field>
-
-          <mat-form-field *ngIf="gender_balise" class="width_100"  appearance="standard">
-            <mat-label>Votre Genre</mat-label>
-            <input [(ngModel)]="user.gender" matInput placeholder="Ex. Non Binaire" >
-          </mat-form-field>
-
-        </div>
-
-        <div class="col-12">
-
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Date de Naissance</mat-label>
-            <input matInput [matDatepicker]="picker" [(ngModel)]="user.dateOfBirth">
-            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-            <mat-datepicker #picker></mat-datepicker>
-          </mat-form-field>
-
-        </div>
-
-        <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Profession</mat-label>
-            <input matInput [(ngModel)]="user.occupation" name="occupation" type="text" placeholder="Ex. Rédacteur ">
-          </mat-form-field>
-        </div> -->
-
-        <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Téléphone</mat-label>
-            <input matInput [(ngModel)]="user.phoneNumber" name="phoneNumber" type="tel" placeholder="Ex. 61000000 ">
-          </mat-form-field>
-        </div>
-
-        <!-- <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-
-            <mat-label>Lieux de travail (Pays)</mat-label>
-
-            <input matInput [(ngModel)]="user.country" matInput
-                   [formControl]="myControl" [matAutocomplete]="auto1"
-                   name="country" type="text" placeholder="Ex. Benin ">
-
-            <mat-autocomplete autoActiveFirstOption #auto1="matAutocomplete">
-              <mat-option (click)="changeCountryVal(false)"
-                          *ngFor="let country of stateGroupOptions | async"
-                          [value]="country.name">
-                {{country.name}}
-              </mat-option>
-            </mat-autocomplete>
-
-          </mat-form-field>
-
-        </div>
-
-        <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Lieux de travail (ville)</mat-label>
-            <input matInput [(ngModel)]="user.city" name="city" type="tel" placeholder="Ex. Cotonou ">
-          </mat-form-field>
-        </div> -->
 
         <div class="col-6">
           <mat-form-field class="width_100" appearance="standard">
@@ -182,100 +101,19 @@
 
       <div *ngIf="!registerDone" class="form-group row" style="margin-top: 2em;">
 
-        <div class="col-6">
+        <div class="col-12">
           <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Nom</mat-label>
-            <input matInput [(ngModel)]="user.lastName" name="lastName"  type="text" placeholder="Ex. .">
+            <mat-label>Nom d'utilisateur</mat-label>
+            <input matInput [(ngModel)]="user.username" name="firstName" type="text" placeholder="Ex. .">
           </mat-form-field>
         </div>
 
-        <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Prénom</mat-label>
-            <input matInput [(ngModel)]="user.firstName" name="firstName" type="text" placeholder="Ex. .">
-          </mat-form-field>
-        </div>
-
-        <div class="col-6">
+        <div class="col-12">
           <mat-form-field class="width_100" appearance="standard">
             <mat-label>Email</mat-label>
             <input matInput [(ngModel)]="user.email" name="email" type="email" placeholder="Ex. exemaple@gmail.com">
           </mat-form-field>
         </div>
-
-        <!-- <div class="col-12">
-
-          <mat-form-field class="width_100" appearance="standard">
-
-            <mat-label>Genre</mat-label>
-
-            <mat-select [(ngModel)]="user.gender">
-              <mat-option (click)="changeCountryVal(false)" (click)="changeGenderVal(false)"  value="M">Masculin</mat-option>
-              <mat-option (click)="changeCountryVal(false)" (click)="changeGenderVal(false)" value="F">Féminin</mat-option>
-              <mat-option (click)="changeCountryVal(false)" (click)="changeGenderVal(true )" value="">Autre</mat-option>
-            </mat-select>
-
-          </mat-form-field>
-
-          <mat-form-field *ngIf="gender_balise" class="width_100"  appearance="standard">
-            <mat-label>Votre Genre</mat-label>
-            <input [(ngModel)]="user.gender" matInput placeholder="Ex. Non Binaire" >
-          </mat-form-field>
-
-        </div>
-
-        <div class="col-12">
-
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Date de Naissance</mat-label>
-            <input matInput [matDatepicker]="picker" [(ngModel)]="user.dateOfBirth">
-            <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
-            <mat-datepicker #picker></mat-datepicker>
-          </mat-form-field>
-
-        </div>
-
-        <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Profession</mat-label>
-            <input matInput [(ngModel)]="user.occupation" name="occupation" type="text" placeholder="Ex. Rédacteur ">
-          </mat-form-field>
-        </div> -->
-
-        <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Téléphone</mat-label>
-            <input matInput [(ngModel)]="user.phoneNumber" name="phoneNumber" type="tel" placeholder="Ex. 61000000 ">
-          </mat-form-field>
-        </div>
-
-        <!-- <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-
-            <mat-label>Lieux de travail (Pays)</mat-label>
-
-            <input matInput [(ngModel)]="user.country" matInput
-                   [formControl]="myControl" [matAutocomplete]="auto1"
-                   name="country" type="text" placeholder="Ex. Benin ">
-
-            <mat-autocomplete autoActiveFirstOption #auto1="matAutocomplete">
-              <mat-option (click)="changeCountryVal(false)"
-                          *ngFor="let country of stateGroupOptions | async"
-                          [value]="country.name">
-                {{country.name}}
-              </mat-option>
-            </mat-autocomplete>
-
-          </mat-form-field>
-
-        </div>
-
-        <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Lieux de travail (ville)</mat-label>
-            <input matInput [(ngModel)]="user.city" name="city" type="tel" placeholder="Ex. Cotonou ">
-          </mat-form-field>
-        </div> -->
 
         <div class="col-6">
           <mat-form-field class="width_100" appearance="standard">
@@ -311,7 +149,7 @@
           </button>
         </div>
 
-        <!-- <h4 class="last_msg" >Vous n’avez pas encore de compte ? <a routerLink="/auth/register" >Cliquez ici !</a> </h4> -->
+        <h4 style="width: 100%;" class="last_msg" >Vous avez déja un compte ? <a routerLink="/auth/login" >Cliquez ici !</a> </h4>
 
       </div>
 

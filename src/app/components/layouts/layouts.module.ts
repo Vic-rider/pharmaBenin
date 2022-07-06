@@ -11,6 +11,7 @@ import { RouterModule } from '@angular/router';
 import { MaterialModule } from '../core/modules/material.module';
 import { MatIconModule } from '@angular/material/icon';
 import { MatMenuModule } from '@angular/material/menu';
+import { MatDividerModule } from '@angular/material/divider';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ imports: [
     RouterModule,
     MaterialModule,
     MatIconModule,
-    MatMenuModule
+    MatMenuModule,
+    MatDividerModule
 ],
 exports: [
   HeaderOneComponent,
