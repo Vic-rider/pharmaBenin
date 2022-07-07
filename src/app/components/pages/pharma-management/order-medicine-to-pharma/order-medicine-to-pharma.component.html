@@ -46,7 +46,7 @@
                     <!-- <mat-form-field class="width_100" appearance="standard">
                       <input matInput [(ngModel)]="medoc.quantity" name="medoc_{{ i }}"  type="number" min="1" max="10" placeholder="quantité">
                     </mat-form-field> -->
-                    <input matInput [(ngModel)]="medoc.quantity" name="medoc_{{ i }}"  type="number" min="1" max="10" placeholder="quantité">
+                    <input [(ngModel)]="medoc.quantity" name="medoc_{{ i }}"  type="number" min="1" max="10" placeholder="quantité">
                 </div>
 
             </div>
@@ -55,12 +55,24 @@
 
         <h3 *ngIf="selectedMedocs.length != 0" class="col-12" style="text-align: right; margin: 10px 10px 0 0;" > <strong>Total : </strong> {{ getTotal() }} <strong>XOF</strong></h3>
 
-        <!-- <div class="col-6">
-          <mat-form-field class="width_100" appearance="standard">
-            <mat-label>Nom</mat-label>
-            <input matInput   type="text" placeholder="Ex. .">
-          </mat-form-field>
-        </div> -->
+        <div class="col-12 file_input_select" (click)="lauchFileInput()">
+
+            <ng-container *ngIf="!files" >
+
+                <mat-icon class="file_icon" > attach_file</mat-icon>
+                Vos Ordonances.
+
+            </ng-container>
+
+            <ng-container *ngIf="files" >
+
+                {{ files.length }} Ordonance(s)
+
+            </ng-container>
+
+        </div>
+
+        <input id="file_input" (change)="fileEvent($event)" class="file_input" accept=".pdf, .png, .jpg, .jpeg" type="file" multiple>
 
         <div class="form_input col-12 row" style="margin-top: 2em">
 
@@ -89,7 +101,7 @@
 
         </div>
 
-        <h3 style="text-align: center" > Ici  <span style="color: crimson" ><strong>PB-000062-F8R</strong></span>  votre numéro de Commande ( <strong>Elle servira à vous identifier votre commande</strong> ) </h3>
+        <h3 style="text-align: center" > Ici  <span style="color: crimson" ><strong>{{ orderCode }}</strong></span>  votre numéro de Commande ( <strong>Elle servira à vous identifier votre commande</strong> ) </h3>
 
     </div>
 

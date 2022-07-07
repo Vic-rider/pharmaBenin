@@ -121,6 +121,8 @@ $base_color: #003906;
     border-radius: 13px;
     border: 2px gray dashed;
     min-height: 6em;
+    max-height: 300px;
+    overflow-y: auto;
     padding: 0 10px;
 
     .medoc {
@@ -148,4 +150,27 @@ button {
     border-radius: 6px;
     padding: 0 20px;
     color: #fff;
+}
+
+.file_input {
+    width: 0;
+    visibility: hidden;
+}
+
+.file_icon {
+    position: relative;
+    top: 4px;
+    transform: rotate(45deg);
+}
+
+.file_input_select {
+    text-align: center;
+    margin-top: 1em;
+    height: 3em;
+    line-height: 3.1;
+    border: crimson 2px dashed;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
 }

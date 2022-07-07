@@ -28,9 +28,12 @@ export class OrderMedicineToPharmaComponent implements OnInit {
   toppings = new FormControl('');
   selectedMedocs: Array<Medoc> = [];
 
+  orderCode = '';
+
   toppingList: string[] = ['UPSA-C', 'Vitabact', 'Deslora Denk', 'Nasacort', 'Esbatine'];
 
   userData = JSON.parse(localStorage.getItem(environment.PB_userData));
+  files: any;
 
   constructor(
     public dialogRef: MatDialogRef<OrderMedicineToPharmaComponent>,
@@ -43,6 +46,15 @@ export class OrderMedicineToPharmaComponent implements OnInit {
     this.dialogRef.close();
   }
 
+  fileEvent(event) {
+      console.log(event.target.files)
+      this.files = event.target.files
+  }
+
+  lauchFileInput() {
+    document.getElementById('file_input').click();
+  }
+
   submit() {
 
     this.load = true;
@@ -51,9 +63,16 @@ export class OrderMedicineToPharmaComponent implements OnInit {
 
         this.orderingDone = true;
 
+        this.orderCode = `PB-${this.randomIntFromInterval(5000, 99999)}-F8R`
+
     }, 3000);
 
   }
+
+  randomIntFromInterval(min, max) { // min and max included
+    return Math.floor(Math.random() * (max - min + 1) + min)
+  }
+
 
   getTotal() {
 
